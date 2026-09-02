@@ -12,7 +12,7 @@ app = FastAPI(title="Z Studio AI Assistant Server", version="2.1.0")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-   gemini_model = genai.GenerativeModel('gemini-2.5-flash')
+    gemini_model = genai.GenerativeModel('gemini-1.5-flash')
 else:
     gemini_model = None
 
@@ -40,7 +40,7 @@ misc_data = load_json_file("knowledge_misc.json")
 def search_local_knowledge(query: str) -> str:
     query_lower = query.lower()
     
-    # Kiểm tra kho ngữ cảnh giao tiếp (trả về ngẫu nhiên câu phản hồi cho sinh động)
+    # Kiểm tra kho ngữ cảnh giao tiếp
     if "intents" in chat_data:
         for intent in chat_data["intents"]:
             for kw in intent.get("keywords", []):
@@ -75,7 +75,7 @@ async def ask_z(req: QueryRequest):
     if not user_query:
         raise HTTPException(status_code=400, detail="Prompt cannot be empty")
 
-    # Bước 1: Quét kho tĩnh trên server (0 đồng, tốc độ tính bằng mili-giây)
+    # Bước 1: Quét kho tĩnh trên server
     local_answer = search_local_knowledge(user_query)
     if local_answer:
         return {
@@ -83,7 +83,7 @@ async def ask_z(req: QueryRequest):
             "response": local_answer
         }
 
-    # Bước 2: Fallback sang Gemini nếu câu hỏi lạ hoặc nằm ngoài kho dữ liệu
+    # Bước 2: Fallback sang Gemini
     if gemini_model:
         try:
             system_instruction = (
