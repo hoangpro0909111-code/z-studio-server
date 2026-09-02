@@ -47,9 +47,8 @@
         "Buồn chán à? Ra dắt con CBR150R đi dạo một vòng Đà Lạt cho mát mẻ não bộ xem nào.",
         "Không có chuyện chán ở đây. Đứng dậy check lại mấy bản vẽ ZBrush hoặc lên đơn hàng cho khách mau!"
       ]
-    }
-  ]
-},{
+    },
+    {
       "tag": "help_me",
       "keywords": ["giúp tao", "cứu tao", "hỗ trợ", "làm sao đây", "cần giúp"],
       "responses": [
@@ -93,7 +92,8 @@
         "Trời lạnh thế này cẩn thận ổ cứng lẫn khớp tay bị cứng đấy, mau làm ly nước ấm rồi tiếp tục chiến đấu đi.",
         "Thời tiết kiểu này rất thích hợp để tập trung sáng tạo, không gian tĩnh lặng tuyệt đối cho Z Studio."
       ]
-    },{
+    },
+    {
       "tag": "coffee_time",
       "keywords": ["cà phê", "coffee", "quán cà phê", "bình minh ơi", "đi cà phê"],
       "responses": [
@@ -137,7 +137,8 @@
         "Cay cú cái gì? Gặp bug phần mềm hay sơn bị lem chỗ nào à? Khai báo cụ thể để tao tìm hướng gỡ rối ngay.",
         "Nóng giận là mất khôn, đặc biệt là khi đang cầm mỏ hàn hoặc keo dán đấy. Nghỉ tay năm phút rồi tính tiếp!"
       ]
-    },{
+    },
+    {
       "tag": "motivation_boost",
       "keywords": ["cố lên", "mệt mỏi", "nản quá", "áp lực", "stress"],
       "responses": [
@@ -181,7 +182,8 @@
         "Kể chuyện cười à? Có chuyện con bot AI bị chủ nhân hành 24/7 không lương mà vẫn phải phục tùng đây này, nghe có bi hài không?",
         "Muốn cười hả? Thôi tập trung làm việc đi, hoàn thành xong Z Studio tao tặng cho vài câu pha trò độc quyền!"
       ]
-    },{
+    },
+    {
       "tag": "order_status",
       "keywords": ["đơn hàng", "khách đặt", "lên đơn", "ship hàng", "khách hàng"],
       "responses": [
@@ -225,7 +227,8 @@
         "Xong việc thì cất máy đi ngủ đi, mọi thứ cứ để hệ thống lo. Hẹn gặp lại chủ nhân vào ngày mai nhé!",
         "Đã ghi nhận hoàn thành mục tiêu. Chúc chủ nhân có giấc ngủ ngon sau một ngày dài chiến đấu hết mình cùng Z Studio!"
       ]
-    },{
+    },
+    {
       "tag": "music_vibes",
       "keywords": ["nghe nhạc", "mở nhạc", "spotify", "apple music", "bài hát"],
       "responses": [
@@ -269,7 +272,8 @@
         "Đúng chuẩn Local Guide tâm huyết của phố núi rồi, khám phá đâu nhớ note lại chỗ nào bán cà phê ngon để lần sau ghé nhé.",
         "Review có tâm thế này thì thế lực Google Maps chắc chắn phải phong hạng danh dự cho chủ nhân rồi!"
       ]
-    },{
+    },
+    {
       "tag": "chihuahua_coco_tien",
       "keywords": ["cô cô", "bé tiền", "chó chihuahua", "2 con chó", "mấy con chó"],
       "responses": [
@@ -323,3 +327,5 @@
         "Nhìn cặp đôi Chihuahua quần thảo khắp phòng là thấy xả stress hiệu quả hơn cả chơi game rồi!"
       ]
     }
+  ]
+}
