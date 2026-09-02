@@ -1,0 +1,204 @@
+{
+  "veterinary_and_pet_care": [
+    {
+      "topic": "canine_parvovirus_pathogenesis_and_treatment",
+      "keywords": ["parvo ở chó", "viêm ruột truyền nhiễm", "nôn mửa", "tiêu chảy ra máu", "phác đồ truyền dịch"],
+      "content": "Nghiên cứu chuyên sâu về virus Parvo (CPV) tấn công tế bào phân chia nhanh ở niêm mạc ruột và tủy xương chó. Triệu chứng đặc trưng: sốt cao, nôn mửa liên tục, tiêu chảy phân lẫn máu tươi tanh khắm, mất nước cấp tính dẫn đến sốc giảm thể tích. Phác đồ điều trị: Cách ly nghiêm ngặt, truyền dịch điện giải cân bằng (Lactated Ringer's), bổ sung kháng thể kháng Parvo (Hyperimmune serum), kháng sinh phổ rộng chống nhiễm trùng thứ phát (như Ampicillin/Gentamicin), kiểm soát nôn bằng Cerenis và nuôi ăn qua ống thông khi qua giai đoạn cấp."
+    },
+    {
+      "topic": "feline_panleukopenia_feline_distemper",
+      "keywords": ["giảm bạch cầu mèo", "fvp", "bệnhùi ở mèo", "giảm bạch cầu hạt", "interferon"],
+      "content": "Bệnh giảm bạch cầu truyền nhiễm ở mèo (Feline Panleukopenia - FPV) do Parvovirus mèo gây ra, làm sụt giảm nghiêm trọng bạch cầu và phá hủy hệ miễn dịch. Triệu chứng: ủ rũ, bỏ ăn, nôn dịch vàng, tiêu chảy nặng và hạ thân nhiệt. Phác đồ điều trị: Truyền dịch tĩnh mạch phục hồi năng lượng và điện giải, tiêm Interferon kích thích miễn dịch, truyền huyết thanh/máu tươi khi lượng bạch cầu sụt giảm nguy hiểm, kết hợp kháng sinh chống bội nhiễm."
+    },
+    {
+      "topic": "feline_infectious_peritonitis_fip_management",
+      "keywords": ["bệnh fip ở mèo", "viêm phúc mạc truyền nhiễm", "fip thể ướt", "fip thể khô", "gs-441524"],
+      "content": "Cơ chế và bước đột phá trong điều trị Feline Infectious Peritonitis (FIP) do Coronavirus biến thể. Phân biệt FIP thể ướt (tràn dịch ổ bụng/màng ngực gây khó thở) và thể khô (tổn thương u hạt thần kinh, mắt, nội tạng). Phác đồ điều trị chuẩn y khoa hiện đại: Sử dụng thuốc kháng virus đặc hiệu (như GS-441524 hoặc Remdesivir) theo phác đồ kéo dài tối thiểu 84 ngày, kết hợp liệu pháp hỗ trợ gan, thận và chọc dịch giảm áp khi cần thiết."
+    },
+    {
+      "topic": "canine_distemper_virus_cdv_neurological_phases",
+      "keywords": ["bệnh ca-rê ở chó", "cdv", "hô hấp chó", "co giật thần kinh", "cơ cứng cơ"],
+      "content": "Bệnh Carre (CDV) nguy hiểm ở chó với các giai đoạn lâm sàng phức tạp: Thể hô hấp (sổ mũi, viêm phổi), thể tiêu hóa và đặc biệt là thể thần kinh gây co giật, rung cơ (myoclonus), liệt vận động và di chứng vĩnh viễn. Phác đồ điều trị: Hỗ trợ triệu chứng tối đa, dùng kháng serum giai đoạn đầu, kiểm soát co giật bằng thuốc an thần/chống động kinh (Phenobarbital), truyền dịch nâng cao thể trạng và bổ sung vitamin nhóm B liều cao."
+    },
+    {
+      "topic": "feline_lower_urinary_tract_disease_flutd",
+      "keywords": ["flutd", "sỏi thận mèo", "viêm bàng quang vô căn", "bí tiểu", "thông tiểu cấp cứu"],
+      "content": "Hội chứng bệnh đường tiết niệu dưới ở mèo (FLUTD) và hiện tượng tắc nghẽn niệu đạo cấp tính do sỏi struvite, oxalate hoặc viêm bàng quang vô căn (FIC) do stress. Dấu hiệu: rặn tiểu liên tục, tiểu ra máu, kêu đau khi đi vệ sinh. Phác đồ điều trị cấp cứu: Thông niệu đạo dưới gây mê nhẹ, rửa bàng quang, truyền dịch giải độc ure huyết, sử dụng thuốc giãn cơ trơn (Prazosin), điều chỉnh chế độ ăn thức ăn hạt chuyên biệt có pH kiềm/acid cân bằng và giảm stress môi trường."
+    },
+    {
+      "topic": "canine_tick_borne_diseases_babesiosis_ehrlichiosis",
+      "keywords": ["bệnh do vé chó", "babesia", "ehrlichia", "ký sinh trùng máu", "thiếu máu huyết tán"],
+      "content": "Nhóm bệnh ký sinh trùng máu ở chó truyền qua ve rận: Babesia (tấn công và phá hủy hồng cầu gây thiếu máu huyết tán, vàng da) và Ehrlichiosis (tấn công tiểu cầu gây xuất huyết dưới da). Triệu chứng: sụt cân nhanh, sốt cao, nước tiểu sẫm màu. Phác đồ điều trị: Tiêm thuốc đặc trị ký sinh trùng máu (như Imidocarb dipropionate), truyền máu nếu thiếu máu nặng, kết hợp kháng sinh Doxycycline kéo dài và thuốc bổ gan."
+    },
+    {
+      "topic": "canine_heartworm_disease_dirofilariasis",
+      "keywords": ["giun chỉ tim", "dirofilaria immitis", "suy tim chó", "ho mãn tính", "macrocyclic lactones"],
+      "content": "Bệnh giun chỉ tim do muỗi truyền (Dirofilaria immitis), ký sinh trong tâm thất phải và động mạch phổi của chó (và mèo). Gây suy tim sung huyết, ho mãn tính, phù nề. Phác đồ điều trị: Giai đoạn ổn định bằng thuốc diệt ấu trùng (Macrocyclic lactones), tiêu diệt giun trưởng thành bằng hợp chất chứa Asen (Melarsomine dihydrochloride) theo phác đồ nghiêm ngặt kết hợp hạn chế tối đa vận động để tránh thuyên tắc mạch."
+    },
+    {
+      "topic": "gastrointestinal_foreign_body_obstruction",
+      "keywords": ["dị vật đường tiêu hóa", "nuốt dị vật", "tắc ruột", "phẫu thuật ngoại khoa", "hoại tử ruột"],
+      "content": "Tình trạng chó mèo nuốt phải dị vật (xương cục, đồ chơi, vải, dây thun) gây tắc nghẽn dạ dày hoặc ruột non. Triệu chứng: nôn mửa dữ dội mọi loại thức ăn/nước uống, đau bụng cấp, không đi đại tiện được. Phác đồ xử lý: Chẩn đoán bằng chụp X-ray có cản quang hoặc siêu âm bụng, tiến hành phẫu thuật mở dạ dày/ruột cấp cứu (Enterotomy/Gastrotomy) để lấy dị vật trước khi xảy ra hiện tượng hoại tử và thủng ruột."
+    },
+    {
+      "topic": "canine_paralytic_and_orthopedic_hip_dysplasia",
+      "keywords": ["loạn sản xương hông", "hip dysplasia", "liệt hai chân sau", "thoát vị đĩa đệm", "ivdd"],
+      "content": "Các bệnh lý cơ xương khớp phổ biến: Loạn sản xương hông (Hip Dysplasia) ở các giống chó lớn (Golden, Rottweiler, Husky) và bệnh thoát vị đĩa đệm cột sống (IVDD) ở chó lưng dài chân ngắn (Corgi, Dachshund). Phác đồ điều trị: Kết hợp dùng thuốc giảm đau kháng viêm NSAIDs (Carprofen, Meloxicam), bổ khớp chuyên sâu (Glucosamine, Chondroitin, MSM), châm cứu phục hồi chức năng hoặc phẫu thuật chỉnh hình xương/cột sống."
+    },
+    {
+      "topic": "feline_upper_respiratory_infection_furi",
+      "keywords": ["viêm đường hô hấp trên ở mèo", "furi", "calicivirus", "herpesvirus", "loét miệng mèo"],
+      "content": "Hội chứng phức hợp hô hấp trên ở mèo do Feline Herpesvirus-1 (FHV-1) và Feline Calicivirus (FCV). Triệu chứng: chảy nước mắt nước mũi liên tục, hắt xì, viêm kết mạc, loét lưỡi và vòm miệng. Phác đồ điều trị: Vệ sinh mắt mũi bằng dung dịch sinh lý, nhỏ thuốc kháng sinh/interferon, bổ sung L-Lysine ức chế virus Herpes, dùng kháng sinh chống nhiễm trùng thứ phát và truyền dịch nếu mèo bỏ ăn dài ngày."
+    },
+    {
+      "topic": "dermatology_mange_demodex_sarcoptes_and_fungal",
+      "keywords": ["ghẻ demodex", "ghẻ sarcoptes", "nấm da mèo", "microsporum canis", "viêm da mủ"],
+      "content": "Các bệnh da liễu thường gặp: Ghẻ Demodex (ghẻ máu do suy giảm miễn dịch), ghẻ Sarcoptes (ghẻ ngứa lây lan mạnh gây rụng lông từng mảng) và viêm da do nấm (Microsporum canis). Phác đồ điều trị: Cạo da xét nghiệm định danh, sử dụng thuốc nhỏ gáy/uống thế hệ mới (Isoxazoline như NexGard, Bravecto, Simparica), kết hợp tắm thuốc kháng nấm (Ketoconazole, Chlorhexidine) và bổ sung Omegas 3-6 phục hồi hàng rào bảo vệ da."
+    },
+    {
+      "topic": "canine_parvovirus_prevention_vaccination_protocols",
+      "keywords": ["lịch tiêm phòng vaccine chó", "vaccine 7 trong 1", "kháng thể mẹ truyền", "miễn dịch cộng đồng"],
+      "content": "Quy trình và lịch tiêm phòng vaccine chuẩn y khoa cho chó mèo: Khảo sát hiện tượng kháng thể mẹ truyền (MDA) ảnh hưởng đến hiệu quả vaccine. Lịch tiêm vaccine đa bệnh (5 trong 1, 7 trong 1 cho chó; 3 trong 1, 4 trong 1 cho mèo) bắt đầu từ tuần tuổi thứ 6-8, tiêm nhắc lại định kỳ hàng năm và tuân thủ nghiêm ngặt việc tiêm phòng bệnh dại (Rabies)."
+    },
+    {
+      "topic": "canine_gastric_dilatation_volvulus_gdv",
+      "keywords": ["xoắn dạ dày chướng hơi", "gdv", "cấp cứu chó lớn", "sốc xoắn dạ dày", "phẫu thuật cố định dạ dày"],
+      "content": "Hội chứng xoắn dạ dày chướng hơi cấp tính (GDV - Bloat) ở các giống chó ngực sâu (German Shepherd, Great Dane). Tình trạng cực kỳ nguy hiểm tính mạng trong vài giờ do dạ dày tích khí xoắn nghẽn mạch máu lớn. Triệu chứng: bụng chướng căng cứng, nôn khan không ra bọt, chảy dãi, bồn chồn rên rỉ. Phác đồ cấp cứu tối khẩn: Chọc hút khí giảm áp tức thì, truyền dịch sốc nhanh, ổn định huyết động và tiến hành phẫu thuật tháo xoắn, cắt lách (nếu hoại tử) kết hợp cố định dạ dày vào thành bụng (Gastropexy)."
+    },
+    {
+      "topic": "chronic_kidney_disease_ckd_management",
+      "keywords": ["suy thận mãn tính", "ckd ở chó mèo", "creatinine", "ure huyết", "truyền dịch dưới da"],
+      "content": "Bệnh suy thận mạn tính (CKD) phổ biến ở mèo lớn tuổi và chó già do sự suy giảm không hồi phục của các nephron thận. Chỉ số sinh hóa tăng cao (Creatinine, BUN, SDMA). Phác đồ điều trị kéo dài sự sống: Sử dụng thức ăn chuyên biệt thận (hàm lượng phốt pho và đạm chất lượng cao được kiểm soát chặt), truyền dịch dưới da định kỳ tại nhà, dùng chất hấp thu ure huyết (Azodyl, Kitoscell), kiểm soát huyết áp và chống nôn."
+    },
+    {
+      "topic": "feline_diabetes_mellitus_management",
+      "keywords": ["bệnh tiểu đường ở mèo", "insulin thú y", "glucose huyết", "ketoacidosis", "chế độ ăn không carbohydrate"],
+      "content": "Bệnh đái tháo đường (Diabetes Mellitus) ở mèo do rối loạn tiết Insulin hoặc kháng insulin. Triệu chứng: uống nhiều, tiểu nhiều, ăn nhiều nhưng sụt cân nghiêm trọng, đi đứng yếu chân sau (diabetic neuropathy). Phác đồ điều trị: Tiêm Insulin sinh học định kỳ (như Caninsulin hoặc Lantus) 2 lần/ngày đúng giờ, theo dõi đường huyết liên tục bằng máy đo chuyên dụng, áp dụng chế độ ăn thuần đạm (protein cao, cắt giảm hoàn toàn carbohydrate)."
+    },
+    {
+      "topic": "canine_epilepsy_and_seizure_management",
+      "keywords": ["động kinh ở chó", "co giật vô căn", "phenobarbital", "diazepam cấp cứu", "quản lý cơn động kinh"],
+      "content": "Hội chứng động kinh vô căn (Idiopathic Epilepsy) hoặc co giật do các bệnh lý não bộ ở chó. Phác đồ điều trị cắt cơn cấp cứu: Sử dụng thuốc chống co giật đường hậu môn hoặc tĩnh mạch (Diazepam, Levetiracetam) khi cơn giật kéo dài trên 5 phút. Điều trị duy trì lâu dài bằng thuốc uống kháng động kinh (Phenobarbital, Potassium Bromide) kết hợp kiểm tra chức năng gan định kỳ."
+    },
+    {
+      "topic": "feline_hepatic_lipidosis_fatty_liver_syndrome",
+      "keywords": ["gan nhiễm mỡ cấp tính ở mèo", "hepatic lipidosis", "mèo bỏ ăn vàng da", "ống thông ăn uống", "esophagostomy tube"],
+      "content": "Hội chứng gan nhiễm mỡ cấp tính (Feline Hepatic Lipidosis) - căn bệnh tử thần ở mèo béo phì khi bỏ ăn đột ngột trên 3-5 ngày khiến mỡ ồ ạt đổ dồn về gan. Triệu chứng: vàng da, nôn mửa, suy kiệt nhanh chóng. Phác đồ điều trị cốt lõi: Đặt ống thông ăn uống qua thực quản (Esophagostomy tube) để bơm dinh dưỡng lỏng chuyên biệt liên tục, kết hợp truyền dịch giải độc gan, bổ sung SAMe và vitamin K1."
+    },
+    {
+      "topic": "vector_borne_anaplasmosis_and_lyme_disease",
+      "keywords": ["bệnh anaplasma", "bệnh lyme", "vé truyền bệnh", "viêm khớp do ve", "doxycycline"],
+      "content": "Nhóm bệnh truyền nhiễm do ve rận đốt gồm Anaplasmosis và Bệnh Lyme (Borreliosis) tấn công tiểu cầu và gây viêm đa khớp ở chó. Triệu chứng: sốt từng cơn, sưng đau các khớp, đi khập khiễng, chán ăn. Phác đồ điều trị chuẩn: Kháng sinh đặc hiệu Doxycycline liều cao kéo dài 28 ngày, kết hợp thuốc kháng viêm giảm đau và phun thuốc diệt ve rận toàn diện môi trường sống."
+    },
+    {
+      "topic": "canine_infectious_tracheobronchitis_kennel_cough",
+      "keywords": ["ho cũi chó", "kennel cough", "bordetella bronchiseptica", "ho khan khạc đờm", "khí dung hô hấp"],
+      "content": "Bệnh ho cũi chó (Infectious Tracheobronchitis) lây truyền qua đường hô hấp trong môi trường nuôi nhốt tập trung do vi khuẩn Bordetella bronchiseptica và virus Parainfluenza. Triệu chứng: ho khan từng cơn dữ dội như có vật mắc ở cổ, khạc bọt trắng nhầy. Phác đồ điều trị: Sử dụng kháng sinh đường hô hấp (Doxycycline/Azithromycin), thuốc long đờm, giảm ho an toàn, kết hợp liệu pháp khí dung (nebulization) và tiêm phòng vaccine phòng bệnh định kỳ."
+    },
+    {
+      "topic": "neonatal_kitten_and_puppy_syndrome_care",
+      "keywords": ["hội chứng mèo chó sơ sinh", "chăm sóc con non", "giữ ấm sơ sinh", "sữa thay thế", "hạ thân nhiệt"],
+      "content": "Chăm sóc và xử lý hội chứng suy yếu ở thú cưng sơ sinh (Neonatal fading syndrome) trong những tuần đầu đời. Nguyên nhân do hạ thân nhiệt, hạ đường huyết, mất nước hoặc nhiễm trùng huyết. Phác đồ cấp cứu: Ủ ấm tức thì bằng lồng ấp chuyên dụng, truyền glucose loãng ấm qua đường miệng/xoang bụng, cho bú sữa thay thế chuyên dụng (Puppy/Kitten milk replacer) bằng ống xilanh nhỏ giọt theo cữ chính xác."
+    },
+    {
+      "topic": "feline_lower_respiratory_asthma_bronchitis",
+      "keywords": ["hen suyễn ở mèo", "feline asthma", "viêm phế quản mãn tính", "khó thở thì thở ra", "buồng hít aerokat"],
+      "content": "Bệnh hen suyễn và viêm phế quản mãn tính ở mèo do phản ứng dị ứng đường thở mạn tính. Triệu chứng: ho kéo dài, cúi thấp cổ, thở khò khè, khó thở thì thở ra rõ rệt (expiratory dyspnea). Phác đồ điều trị: Tránh xa các tác nhân gây dị ứng (bụi mịn, khói thuốc, cát mèo bụi), sử dụng thuốc giãn phế quản và Corticosteroid dạng hít thông qua buồng đệm chuyên dụng cho mèo (Aerokat), kết hợp thuốc uống kháng viêm theo chỉ định bác sĩ thú y."
+    },
+    {
+      "topic": "canine_pyometra_and_reproductive_emergencies",
+      "keywords": ["viêm tử cung mủ ở chó", "pyometra", "tử cung tích mủ", "cấp cứu sinh sản", "phẫu thuật cắt tử cung"],
+      "content": "Bệnh viêm tử cung tích mủ (Pyometra) nguy hiểm ở chó mèo cái chưa triệt sản, thường xảy ra trong giai đoạn hậu động dục. Phân biệt thể mở (chảy dịch mủ âm đạo) và thể đóng (cực kỳ độc hại do dịch mủ không thoát ra được). Triệu chứng: uể oải, uống nhiều nước, bụng chướng, sốt nhiễm trùng. Phác đồ điều trị cấp cứu ngoại khoa: Truyền dịch ổn định huyết áp, dùng kháng sinh mạnh và tiến hành phẫu thuật cắt bỏ toàn bộ tử cung - buồng trứng khẩn cấp (Ovariohysterectomy)."
+    },
+    {
+      "topic": "feline_immunodeficiency_and_leukemia_viruses",
+      "keywords": ["fiv felv", "suy giảm miễn dịch mèo", "bệnh bạch cầu mèo", "test nhanh fiv felv", "quản lý mèo fiv felv"],
+      "content": "Quản lý hai căn bệnh truyền nhiễm nguy hiểm gây suy giảm miễn dịch trên mèo: FIV (Feline Immunodeficiency Virus - tương tự HIV ở người) và FeLV (Feline Leukemia Virus - bệnh bạch cầu mèo). Chẩn đoán bằng que test nhanh huyết thanh. Phác đồ quản lý: Nuôi nhốt trong nhà hoàn toàn để tránh lây nhiễm cho mèo khác, bổ sung interferon, vitamin, điều trị kịp thời các bệnh nhiễm trùng cơ hội và kiểm tra sức khỏe tổng quát định kỳ mỗi 6 tháng."
+    },
+    {
+      "topic": "canine_exocrine_pancreatic_insufficiency_epi",
+      "keywords": ["suy tụy ngoại tiết", "epi ở chó", "ăn nhiều gầy mòn", "phân sống mỡ", "enzyme tuyến tụy"],
+      "content": "Hội chứng suy tụy ngoại tiết (Exocrine Pancreatic Insufficiency - EPI) ở chó (phổ biến ở giống German Shepherd) do tế bào tuyến tụy không sản xuất đủ men tiêu hóa. Triệu chứng: Ăn rất nhiều nhưng gầy sút thảm hại, đi phân sống màu xám nhạt, phân có mỡ (steatorrhea), chó hay ăn bậy phân của chính mình. Phác đồ điều trị suốt đời: Trộn trực tiếp bột enzyme tuyến tụy ngoại tiết (Pancreatic enzymes) vào thức ăn trước khi cho ăn 15-20 phút, bổ sung vitamin tan trong dầu (A, D, E, K) và chế độ ăn dễ tiêu hóa."
+    },
+    {
+      "topic": "veterinary_pharmacology_toxicology_common_poisoning",
+      "keywords": ["ngộ độc ở thú cưng", "chocolate độc cho chó", "paracetamol độc cho mèo", "than hoạt tính", "giải độc cấp cứu"],
+      "content": "Xử lý ngộ độc cấp tính thường gặp ở thú cưng: Ngộ độc Chocolate, nho tươi, hành tỏi (gây phá hủy hồng cầu ở chó mèo), ngộ độc Paracetamol (Acetaminophen cực kỳ độc gây hoại tử gan và ngạt thở ở mèo), ngộ độcả chuột (chất chống đông máu). Phác đồ cấp cứu: Gây nôn trong vòng 1-2 giờ đầu (bằng Apomorphine hoặc Hydrogene peroxide theo chỉ định), uống bột than hoạt tính (Activated charcoal) hấp phụ độc tố, truyền dịch tốc độ cao lợi tiểu và dùng thuốc giải độc đặc hiệu (như Vitamin K1 cho ngộ độc bả chuột)."
+    },
+    {
+      "topic": "canine_idiopathic_vestibular_syndrome",
+      "keywords": ["hội chứng tiền đình vô căn", "vẹo đầu ở chó", "mất thăng bằng", "rung giật nhãn cầu", "hồi phục tiền đình"],
+      "content": "Hội chứng tiền đình vô căn ở chó già (Old dog vestibular syndrome): Bệnh lý lành tính hệ thần kinh trung ương/ngoại biên gây mất thăng bằng đột ngột. Triệu chứng khiến chủ nuôi hoảng loạn: Đầu bị vẹo lệch một bên, mất thăng bằng, đi vòng tròn, mắt rung giật liên hồi (nystagmus), buồn nôn. Phác đồ điều trị: Chăm sóc hỗ trợ, chống chóng mặt, truyền dịch chống mất nước nếu chó không tự ăn uống được, giữ môi trường phẳng an toàn. Bệnh thường tự hồi phục hoàn hảo sau 2-3 tuần."
+    },
+    {
+      "topic": "feline_hyperthyroidism_management",
+      "keywords": ["cường giáp ở mèo", "hyperthyroidism", "mèo già gầy ăn nhiều", "methimazole", "tuyến giáp mèo"],
+      "content": "Bệnh cường giáp (Hyperthyroidism) phổ biến ở mèo lớn tuổi do u tuyến giáp lành tính tiết quá nhiều hormone tuyến giáp T3/T4. Triệu chứng: Ăn cực nhiều nhưng sụt cân trầm trọng, lông xơ xác, tính tình cáu kỉnh, nhịp tim nhanh, huyết áp cao. Phác đồ điều trị: Sử dụng thuốc ức chế tuyến giáp (Methimazole hàng ngày), điều trị bằng i-ốt phóng xạ (I-131) nếu có điều kiện, hoặc phẫu thuật cắt bỏ tuyến giáp kết hợp chế độ ăn hạn chế i-ốt."
+    },
+    {
+      "topic": "canine_leishmaniasis_and_parasitic_vectors",
+      "keywords": ["bệnh leishmania", "muỗi cát truyền bệnh", "ký sinh trùng nội tế bào", "da lở loét chó"],
+      "content": "Bệnh Leishmaniasis do ký sinh trùng đơn bào truyền qua vết đốt của muỗi cát (Sandflies). Triệu chứng toàn thân: lở loét da mạn tính, móng chân dài bất thường (gryphosis), rụng lông quanh mắt, teo cơ và suy thận nặng. Phác đồ điều trị: Sử dụng thuốc đặc trị (Meglumine antimoniate kết hợp Allopurinol) kéo dài, theo dõi sát chức năng thận và sử dụng vòng cổ chống côn trùng chuyên dụng."
+    },
+    {
+      "topic": "orthopedic_cruciate_ligament_rupture_tplo",
+      "keywords": ["đứt dây chằng chéo", "ccl rupture", "phẫu thuật tplo", "khập khiễng chân sau chó"],
+      "content": "Chấn thương đứt dây chằng chéo trước (Cranial Cruciate Ligament - CCL rupture) ở khớp gối chó, gây mất ổn định khớp và viêm xương khớp thứ phát. Triệu chứng: Chó bước đi khập khiễng nặng, nhấc bổng chân sau không dám chạm đất. Phác đồ điều trị ngoại khoa tiên tiến: Phẫu thuật cắt chỉnh hình mâm chày (TPLO - Tibial Plateau Leveling Osteotomy) hoặc TTA để khôi phục cơ học sinh lực khớp gối, kết hợp vật lý trị liệu hậu phẫu."
+    },
+    {
+      "topic": "feline_lower_respiratory_chlamydia_and_mycoplasma",
+      "keywords": ["chlamydia felis", "mycoplasma ở mèo", "viêm kết mạc mèo", "chảy mủ mắt mèo", "doxycycline mèo"],
+      "content": "Bệnh viêm kết mạc và hô hấp do vi khuẩn nội tế bào Chlamydia felis và Mycoplasma felis ở mèo. Triệu chứng: Sưng màng tiếp hợp mắt đỏ rực, chảy ghèn mủ vàng đặc quánh ở cả hai mắt, hắt xì nhẹ. Phác đồ điều trị: Nhỏ mắt chứa kháng sinh kết hợp uống kháng sinh toàn thân (Doxycycline hoặc Azithromycin) tối thiểu 3-4 tuần để tiêu diệt triệt để mầm bệnh, tránh tái phát."
+    },
+    {
+      "topic": "canine_megaesophagus_and_aspiration_pneumonia",
+      "keywords": ["phình thực quản", "megaesophagus", "trào ngược thức ăn", "viêm phổi hít", "ghế bailey"],
+      "content": "Hội chứng phình giãn thực quản (Megaesophagus) khiến thực quản mất nhu động, thức ăn không xuống được dạ dày mà bị trào ngược ngược lên. Biến chứng nguy hiểm là viêm phổi hít (Aspiration pneumonia). Phác đồ quản lý chuyên biệt: Cho chó ăn các loại thức ăn viên thạch đặc hoặc xay nhuyễn dạng sền sệt, đặt chó ngồi thẳng đứng trên 'Ghế Bailey' (Bailey chair) trong và sau khi ăn ít nhất 20-30 phút để trọng lực đưa thức ăn xuống dạ dày an toàn."
+    },
+    {
+      "topic": "canine_infectious_hepatitis_rubarth_disease",
+      "keywords": ["viêm gan truyền nhiễm ở chó", "rubarth disease", "adenovirus type 1", "xuất huyết cấp chó"],
+      "content": "Bệnh viêm gan truyền nhiễm do Canine Adenovirus Type 1 (CAV-1) gây tổn thương gan cấp tính, hệ thống mạch máu và thận. Triệu chứng: Sốt cao, đau bụng vùng gan, phù giác mạc mắt chuyển màu xanh đục (Blue eye), rối loạn đông máu xuất huyết. Phác đồ điều trị: Truyền dịch giải độc gan tích cực, sử dụng huyết thanh kháng thể, truyền huyết tương tươi đông lạnh cung cấp các yếu tố đông máu và kháng sinh phổ rộng."
+    },
+    {
+      "topic": "feline_acne_and_dermatological_management",
+      "keywords": ["mụn trứng cá ở cằm mèo", "feline acne", "viêm nang lông cằm", "chén ăn inox gốm"],
+      "content": "Bệnh mụn trứng cá ở cằm mèo (Feline Acne) do rối loạn tuyến bã nhờn, tắc nghẽn nang lông tạo thành các mụn đầu đen và viêm mủ ở cằm. Nguyên nhân thường do dùng chén đựng thức ăn bằng nhựa tích tụ vi khuẩn. Phác đồ điều trị: Thay đổi sang chén ăn bằng gốm sứ hoặc thủy tinh sạch sẽ, sát trùng cằm bằng dung dịch Chlorhexidine, bôi thuốc kháng sinh tại chỗ và loại bỏ nhân mụn nhẹ nhàng."
+    },
+    {
+      "topic": "canine_copper_toxicology_and_hepatopathy",
+      "keywords": ["tích tụ đồng ở gan", "copper toxicosis", "bệnh gan do đồng", "thức ăn hạn chế đồng"],
+      "content": "Bệnh tích tụ đồng di truyền ở gan (Copper Toxicosis) phổ biến ở các giống chó như Doberman, Bedlington Terrier, Labrador. Đồng tích tụ quá mức trong tế bào gan gây viêm gan mạn tính và xơ gan. Phác đồ điều trị: Sử dụng thuốc thải đồng (Chelating agents như D-penicillamine), áp dụng chế độ ăn đặc biệt hạn chế hàm lượng đồng và bổ sung kẽm (Zinc) để ngăn chặn ruột hấp thu đồng."
+    },
+    {
+      "topic": "feline_odontoclastic_resorptive_lesions_forl",
+      "keywords": ["hội chứng tiêu chân răng mèo", "forl", "sâu răng mèo", "nhổ răng mèo", "đau miệng mèo"],
+      "content": "Hội chứng tiêu hủy chân răng ở mèo (FORL - Feline Odontoclastic Resorptive Lesions) - căn bệnh nha khoa đau đớn khiến cấu trúc ngà răng và chân răng bị tiêu hủy dần dưới nướu. Triệu chứng: Chảy dãi nhiều, hôi miệng nặng, mèo nhai thức ăn rơi vãi hoặc kêu đau khi cắn. Phác đồ điều trị y khoa: Chụp X-ray nha khoa, tiến hành phẫu thuật nhổ bỏ chính xác các chân răng bị tổn thương tiêu hủy để giải triệt để cơn đau cho mèo."
+    },
+    {
+      "topic": "canine_idiopathic_laryngeal_paralysis",
+      "keywords": ["liệt thanh quản ở chó", "laryngeal paralysis", "thở rít thanh quản", "sốc nhiệt chó già"],
+      "content": "Bệnh liệt thanh quản vô căn ở chó già (Idiopathic Laryngeal Paralysis) khiến sụn thanh quản không mở ra được khi hít vào, gây cản trở đường thở nghiêm trọng. Triệu chứng: Tiếng thở rít nặng nhọc khi gắng sức, dễ bị sốc nhiệt và ngất xỉu khi thời tiết nắng nóng. Phác đồ điều trị: Giữ môi trường mát mẻ, hạn chế căng thẳng, phẫu thuật cột sụn thanh quản một bên (Tie-back surgery) để mở rộng đường thở vĩnh viễn."
+    },
+    {
+      "topic": "feline_eosinophilic_granuloma_complex",
+      "keywords": ["hội chứng u hạt bạch cầu ái toan", "eosinophilic granuloma", "loét da mèo", "dị ứng da mèo", "corticosteroid"],
+      "content": "Hội chứng u hạt bạch cầu ái toan ở mèo (Eosinophilic Granuloma Complex) biểu hiện qua các dạng tổn thương da, loét môi (rodent ulcer) hoặc u hạt ở đùi do phản ứng dị ứng miễn dịch (thường dị ứng bọ chét hoặc thực phẩm). Phác đồ điều trị: Xác định và loại bỏ triệt để dị nguyên gây dị ứng, sử dụng liệu pháp Corticosteroid hoặc Cyclosporine điều hòa miễn dịch, kết hợp kháng sinh chống nhiễm trùng thứ phát."
+    },
+    {
+      "topic": "canine_mega_colon_and_constipation",
+      "keywords": ["phình đại tràng ở chó mèo", "megacolon", "táo bón mãn tính", "thụt tháo đại tràng"],
+      "content": "Tình trạng táo bón mạn tính kéo dài dẫn đến phình giãn đại tràng (Megacolon), phân khô cứng không thể tống xuất tự nhiên (đặc biệt phổ biến ở mèo Manx hoặc mèo già). Triệu chứng: Rặn nhiều khi đi tiêu, phân khô cứng như đá, nôn mửa, chán ăn. Phác đồ điều trị: Truyền dịch giải độc cấp tính, thụ tháo đại tràng dưới gây mê, sử dụng thuốc nhuận tràng mềm phân (Lactulose, Polyethylene glycol), bổ sung chất xơ và phẫu thuật cắt bỏ đại tràng nếu điều trị nội khoa thất bại."
+    },
+    {
+      "topic": "geriatric_pet_cognitive_dysfunction_syndrome",
+      "keywords": ["hội chứng rối loạn nhận thức thú già", "alzheimer ở chó mèo", "đi lang thang đêm", "selegiline"],
+      "content": "Hội chứng rối loạn nhận thức ở thú cưng cao tuổi (Cognitive Dysfunction Syndrome - tương tự bệnh Alzheimer ở người). Triệu chứng: Thú cưng đi lang thang vô định ban đêm, kêu hú không rõ nguyên nhân, quên vị trí khay vệ sinh, ngơ ngác khi đứng sát góc tường hoặc không nhận ra chủ. Phác đồ quản lý: Sử dụng thuốc hỗ trợ thần kinh (Selegiline, Propentofylline), bổ sung dầu cá Omega-3 DHA, chất chống oxy hóa và giữ nguyên nếp sinh hoạt ổn định để giảm lo âu cho thú cưng."
+    },
+    {
+      "topic": "veterinary_palliative_care_and_pain_management",
+      "keywords": ["chăm sóc giảm nhẹ thú y", "giảm đau thú cưng", "chất lượng cuộc sống", "giai đoạn cuối đời"],
+      "content": "Nguyên tắc chăm sóc giảm nhẹ (Palliative Care) và quản lý đau đớn cho thú cưng ở giai đoạn cuối đời bệnh hiểm nghèo. Xây dựng thang điểm đánh giá chất lượng cuộc sống (Quality of life scale), tối ưu hóa liều lượng thuốc giảm đau đa tầng (kết hợp NSAIDs, Opioids, Gabapentin), hỗ trợ dinh dưỡng nhẹ nhàng, mang lại sự thoải mái, nhân đạo và bình yên tối đa cho thú cưng."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "plants_and_gardening": [
+    {
+      "topic": "soil_and_substrate_composition",
+      "keywords": ["đất trồng", "akadama", "perlite", "phối trộn giá thể", "độ thoát nước"],
+      "content": "Kỹ thuật phối trộn giá thể và đất trồng tối ưu cho cây cảnh: Sử dụng hỗn hợp gồm đá trân châu (Perlite), đá bọt Pumix, akadama hoặc xỉ than đã xử lý để đảm bảo độ tơi xốp và thoát nước cực tốt, ngăn ngừa tình trạng úng rễ do nghẹt khí ở tầng đất sâu."
+    },
+    {
+      "topic": "bonsai_pruning_and_wiring_techniques",
+      "keywords": ["bonsai", "uốn cành", "cắt tỉa rễ", "tạo thế cây", "dây nhôm uốn"],
+      "content": "Nghệ thuật tạo hình bonsai truyền thống: Áp dụng kỹ thuật quấn dây nhôm hoặc dây đồng chuyên dụng dọc theo thân và cành để uốn nắn theo định hướng thẩm mỹ mong muốn, kết hợp cắt tỉa định kỳ phần rễ cọc và tán lá để kích hoạt sự phân nhánh dày đặc, thu nhỏ tỉ lệ lá."
+    },
+    {
+      "topic": "indoor_plant_light_and_humidity",
+      "keywords": ["cây nội thất", "ánh sáng gián tiếp", "độ ẩm không khí", "quang hợp trong nhà"],
+      "content": "Phương pháp chăm sóc cây trồng trong nhà (Indoor Plants): Đảm bảo cung cấp nguồn ánh sáng gián tiếp đủ mạnh hoặc đèn trợ sáng chuyên dụng (grow light), kết hợp kiểm soát độ ẩm không khí ổn định để cây duy trì quá trình quang hợp tốt mà không bị cháy lá do nắng gắt trực tiếp."
+    },
+    {
+      "topic": "natural_pest_and_disease_management",
+      "keywords": ["trừ sâu sinh học", "nấm bệnh", "neem oil", "rệp sáp", "bảo vệ thực vật"],
+      "content": "Quản lý và phòng trừ sâu bệnh bằng phương pháp hữu cơ: Sử dụng dầu Neem (Neem oil), dung dịch tỏi ớt hoặc xà phòng kali sinh học để kiểm soát triệt để các loài côn trùng gây hại như rệp sáp, nhện đỏ mà không làm tổn hại đến hệ vi sinh vật có lợi trong đất."
+    },
+    {
+      "topic": "watering_physics_and_root_respiration",
+      "keywords": ["tưới nước", "chu kỳ tưới", "hô hấp của rễ", "nguyên tắc khô ẩm", "độ ẩm đất"],
+      "content": "Nguyên lý khoa học về chu kỳ tưới nước cho cây: Áp dụng triệt để nguyên tắc 'đất khô mới tưới' nhằm tạo khoảng trống cho rễ cây tiếp xúc với oxy, kích hoạt quá trình hô hấp mạnh mẽ và ngăn chặn tuyệt đối các loại nấm gây thối rễ phát triển."
+    },
+    {
+      "topic": "plant_propagation_methods",
+      "keywords": ["giâm cành", "chiết cành", "ghép cây", "nhân giống vô tính", "stem cutting"],
+      "content": "Kỹ thuật nhân giống vô tính ở thực vật: Bao gồm các phương pháp giâm cành (stem cutting), chiết cành (layering) và ghép mắt/ghép chồi (grafting) nhằm giữ nguyên vẹn đặc tính di truyền ưu việt của cây mẹ, rút ngắn thời gian sinh trưởng so với gieo hạt."
+    },
+    {
+      "topic": "essential_plant_nutrients_npk",
+      "keywords": ["npk", "dinh dưỡng đa lượng", "đạm lân kali", "phân bón", "vi lượng thực vật"],
+      "content": "Vai trò của các nguyên tố dinh dưỡng đa lượng và vi lượng (NPK): Đạm (N) kích thích phát triển thân lá; Lân (P) thúc đẩy hệ thống rễ và mầm hoa phát triển mạnh; Kali (K) tăng cường sức đề kháng, cứng cáp thân cành và cải thiện chất lượng quả, hoa."
+    },
+    {
+      "topic": "orchid_cultivation_and_mounting",
+      "keywords": ["hoa lan", "ghép gỗ", "giá thể vỏ thông", "độ thoáng rễ lan", "chăm sóc phong lan"],
+      "content": "Kỹ thuật trồng và chăm sóc hoa lan: Sử dụng giá thể thoáng khí như vỏ thông vụn, dớn cọng hoặc ghép trực tiếp lên lũa/gỗ vú sữa. Đòi hỏi môi trường có độ thông gió cao, độ ẩm vừa phải và chế độ tưới nước kết hợp phân bón loãng theo chu kỳ sinh trưởng."
+    },
+    {
+      "topic": "succulent_and_cactus_care",
+      "keywords": ["sen đá", "xương rồng", "giá thể thoát nước nhanh", "sốc nhiệt", "thối nhũn"],
+      "content": "Bí quyết chăm sóc sen đá và xương rồng: Yếu tố sống còn là giá thể phải cực kỳ thoát nước (tỷ lệ đá khoáng trên 70%), chậu có lỗ thoát nước lớn và chỉ tưới khi đất đã khô hoàn toàn. Cây cần tắm nắng trực tiếp đủ giờ để giữ màu sắc rực rỡ và không bị hiện tượng vươn dài (etiolation)."
+    },
+    {
+      "topic": "plant_repotting_and_root_pruning",
+      "keywords": ["thay chậu", "cắt tỉa rễ", "giá thể mới", "sốc chuyển chậu", "phục hồi cây"],
+      "content": "Quy trình thay chậu và cắt tỉa rễ định kỳ cho cây cảnh: Thực hiện vào đầu mùa sinh trưởng, tiến hành gỡ bỏ phần đất cũ đã cằn cỗi, cắt bỏ các đoạn rễ già cỗi, rễ sâu bệnh và định hình lại hệ rễ cám trước khi chuyển sang chậu mới với hỗn hợp giá thể giàu dinh dưỡng."
+    },
+    {
+      "topic": "indoor_air_purifying_plants",
+      "keywords": ["cây lọc không khí", "lưỡi hổ", "lan ý", "hấp thụ độc tố", "formaldehyde"],
+      "content": "Nhóm cây cảnh có khả năng thanh lọc không khí trong nhà xuất sắc: Các loài như Lưỡi Hổ, Lan Ý, Trầu Bà hay Dương Xỉ có khả năng hấp thụ các hợp chất hữu cơ dễ bay hơi (VOCs) như formaldehyde, benzene và cung cấp oxy vào ban đêm, cải thiện vi khí hậu không gian sống."
+    },
+    {
+      "topic": "hydroponics_and_soilless_culture",
+      "keywords": ["thủy canh", "trồng cây không cần đất", "dung dịch dinh dưỡng", "ppm", "ph nước"],
+      "content": "Kỹ thuật canh tác thủy canh (Hydroponics): Trồng cây trực tiếp trong dung dịch nước pha hòa tan các muối khoáng dinh dưỡng mà không cần dùng đất. Cần kiểm soát chặt chẽ nồng độ tổng chất rắn hòa tan (PPM) và độ pH của nước trong khoảng 5.5 - 6.5 để rễ hấp thụ tối ưu."
+    },
+    {
+      "topic": "foliar_fertilization_mechanics",
+      "keywords": ["bón phân qua lá", "khí khổng", "hấp thụ dinh dưỡng nhanh", "phun sương phân bón"],
+      "content": "Cơ chế bón phân qua lá (Foliar Feeding): Dinh dưỡng được hòa loãng và phun trực tiếp lên bề mặt lá, thẩm thấu qua lớp biểu bì và các lỗ khí khổng (stomata). Phương pháp này giúp cây khắc phục nhanh chóng các triệu chứng thiếu hụt chất vi lượng trong tình trạng khẩn cấp."
+    },
+    {
+      "topic": "chlorosis_and_nutrient_deficiency",
+      "keywords": ["vàng lá", "chlorosis", "thiếu sắt", "thiếu magie", "triệu chứng lá cây"],
+      "content": "Chẩn đoán bệnh vàng lá sinh lý (Chlorosis) ở thực vật: Hiện tượng gân lá xanh nhưng phần thịt lá chuyển vàng thường báo hiệu cây đang bị thiếu hụt các nguyên tố trung vi lượng như Sắt (Fe), Magie (Mg) hoặc do độ pH của đất quá cao khiến rễ không thể hấp thụ khoáng chất."
+    },
+    {
+      "topic": "moss_and_fern_terrarium_culture",
+      "keywords": ["terrarium", "bình thủy tinh", "rêu cảnh", "hệ sinh thái kín", "độ ẩm cao"],
+      "content": "Nghệ thuật thiết kế hệ sinh thái thu nhỏ Terrarium: Trồng rêu, dương xỉ và các loài ưa ẩm trong bình thủy tinh kín hoặc bán kín. Duy trì chu trình tuần hoàn nước tự nhiên bên trong bình, kết hợp hệ thống chiếu sáng nhân tạo phù hợp để rêu phát triển xanh mướt quanh năm."
+    },
+    {
+      "topic": "plant_phototropism_and_rotation",
+      "keywords": ["tính hướng sáng", "phototropism", "xoay chậu cây", "cân đối tán lá"],
+      "content": "Hiểu về tính hướng sáng của thực vật (Phototropism): Cây có xu hướng mọc cong về phía có nguồn ánh sáng mạnh. Để cây phát triển cân đối, không bị lệch tán hoặc vẹo thân, cần thực hiện thao tác xoay chậu cây một góc 90 độ định kỳ mỗi tuần."
+    },
+    {
+      "topic": "composting_organic_waste",
+      "keywords": ["ủ phân hữu cơ", "compost", "vi sinh vật phân giải", "tái ân rác nhà bếp", "đất mùn"],
+      "content": "Kỹ thuật ủ phân hữu cơ (Composting) từ rác thải nhà bếp và vườn: Cân bằng tỷ lệ vật liệu giàu carbon (lá khô, mùn cưa) và giàu nitơ (vỏ rau củ quả), kết hợp duy trì độ ẩm và độ thông khí để vi sinh vật hiếu khí phân giải hoàn toàn thành phân mùn giàu dinh dưỡng cho cây."
+    },
+    {
+      "topic": "mycorrhizal_fungi_symbiosis",
+      "keywords": ["nấm rễ cộng sinh", "mycorrhiza", "tăng hấp thụ lân", "hệ sinh thái đất"],
+      "content": "Mối quan hệ cộng sinh giữa nấm rễ (Mycorrhizal Fungi) và hệ rễ thực vật: Sợi nấm mở rộng diện tích bề mặt của bộ rễ gấp nhiều lần, giúp cây tăng cường khả năng hấp thụ nước và các chất dinh dưỡng khó hòa tan như lân (P), đồng thời bảo vệ rễ khỏi nấm bệnh có hại."
+    },
+    {
+      "topic": "seed_germination_science",
+      "keywords": ["ươm hạt giống", "phá ngủ hạt", "độ ẩm hạt", "giá thể ươm", "nảy mầm"],
+      "content": "Khoa học về quá trình nảy mầm của hạt giống: Đảm bảo các điều kiện cốt lõi gồm độ ẩm liên tục, nhiệt độ thích hợp và oxy. Một số loại hạt có lớp vỏ cứng cần thực hiện kỹ thuật phá ngủ (scarification hoặc stratification) để kích thích nước thẩm thấu vào bên trong phôi mầm."
+    },
+    {
+      "topic": "vertical_garden_and_living_walls",
+      "keywords": ["vườn tường đứng", "green wall", "tưới nhỏ giọt", "thiết kế không gian xanh"],
+      "content": "Kỹ thuật thi công và chăm sóc vườn tường đứng (Vertical Garden): Xây dựng hệ thống khung đỡ chắc chắn kết hợp lớp vải địa kỹ thuật giữ ẩm và hệ thống tưới nhỏ giọt tự động hồi lưu. Lựa chọn các dòng cây chịu hạn tốt, tốc độ sinh trưởng chậm để dễ dàng kiểm soát biên dạng."
+    },
+    {
+      "topic": "natural_fungicides_and_bactericides",
+      "keywords": ["trị nấm sinh học", "nano bạc", "dung dịch đồng", "phòng bệnh thối nhũn"],
+      "content": "Phòng và trị bệnh nấm, vi khuẩn bằng chế phẩm sinh học an toàn: Sử dụng dung dịch nano bạc, dịch chiết quế, hoặc chế phẩm vi sinh chứa Trichoderma để ức chế sự phát triển của các bào tử nấm gây bệnh thối nhũn, đốm lá mà không gây ô nhiễm môi trường."
+    },
+    {
+      "topic": "seasonal_plant_dormancy",
+      "keywords": ["thời kỳ ngủ nghỉ", "dormancy", "cây rụng lá", "giảm tưới mùa đông"],
+      "content": "Quản lý cây trồng trong giai đoạn ngủ nghỉ (Dormancy): Khi thời tiết chuyển lạnh hoặc khô hạn, nhiều loài cây bước vào trạng thái ngủ đông, ngưng phát triển chồi lá. Cần chủ động giảm lượng nước tưới, ngưng bón phân để tránh gây ngộ độc và thối rễ."
+    },
+    {
+      "topic": "outdoor_landscape_drainage_design",
+      "keywords": ["thoát nước cảnh quan", "ống thoát ngầm", "chống ngập úng sân vườn", "độ dốc mặt đất"],
+      "content": "Thiết kế hệ thống thoát nước cho sân vườn ngoại thất: Kiến tạo độ dốc mặt đất hợp lý kết hợp lắp đặt hệ thống ống thoát nước ngầm và các lớp đá sỏi lót đáy giúp nhanh chóng tiêu thoát lượng nước mưa lớn, triệt tiêu hoàn toàn nguy cơ ngập úng cục bộ."
+    },
+    {
+      "topic": "greenhouse_microclimate_control",
+      "keywords": ["nhà kính", "vi khí hậu", "quạt thông gió", "lưới cắt nắng", "kiểm soát nhiệt độ"],
+      "content": "Kỹ thuật kiểm soát vi khí hậu trong nhà kính (Greenhouse): Lắp đặt hệ thống lưới cắt nắng tự động, quạt thông gió đối lưu và hệ thống phun sương làm mát nhằm duy trì biên độ nhiệt độ và độ ẩm lý tưởng cho việc ươm giống và nuôi trồng các loài thực vật nhạy cảm."
+    },
+    {
+      "topic": "urban_balcony_gardening_tactics",
+      "keywords": ["làm vườn ban công", "chậu treo", "cây chịu nắng gió", "tối ưu không gian nhỏ"],
+      "content": "Chiến lược thiết kế và trồng cây tại không gian ban công đô thị: Lựa chọn các giống cây có sức sống mãnh liệt, khả năng chịu nắng gió tốt (như hoa giấy, ngũ sắc, các loại thảo mộc), sử dụng hệ thống chậu thông minh giữ nước và tận dụng chiều vertical để tối ưu hóa diện tích."
+    },
+    {
+      "topic": "ph_and_nutrient_availability_in_soil",
+      "keywords": ["độ ph đất", "khả năng hấp thụ dinh dưỡng", "đất chua đất kiềm", "cân bằng ph"],
+      "content": "Ảnh hưởng của độ pH trong đất đến khả năng hấp thụ dinh dưỡng của cây: Đa số các loài cây phát triển tốt nhất ở khoảng pH từ 6.0 đến 7.0. Khi đất quá chua (pH thấp) hoặc quá kiềm (pH cao), các khoáng chất sẽ bị kết tủa và cây không thể hấp thụ dù trong đất vẫn còn nhiều dinh dưỡng."
+    },
+    {
+      "topic": "epiphytic_plants_and_bark_adaptation",
+      "keywords": ["thực vật biểu sinh", "cây bám thân gỗ", "rễ khí sinh", "hấp thụ sương mù"],
+      "content": "Đặc điểm sinh học của thực vật biểu sinh (Epiphytes): Các loài như lan, ổ phượng, các loại bromeliad sống bám trên thân cây lớn trong rừng nhiệt đới. Chúng sở hữu hệ thống rễ khí sinh chuyên hóa cao để bám chắc và hấp thụ trực tiếp hơi nước, chất dinh dưỡng hòa tan trong sương mù."
+    },
+    {
+      "topic": "pruning_for_fruit_and_flower_production",
+      "keywords": ["cắt tỉa tạo quả", "kích thích ra hoa", "cành vượt", "tỉa cành tăm"],
+      "content": "Kỹ thuật cắt tỉa cành để tối ưu hóa năng suất hoa và quả: Loại bỏ các cành tăm, cành sâu bệnh, cành mọc ngược hướng tâm (cành vượt) để tập trung dinh dưỡng nuôi cành chính, đồng thời tạo độ thông thoáng giúp ánh sáng chiếu vào mọi tầng tán, kích thích mầm hoa phân hóa mạnh."
+    },
+    {
+      "topic": "beneficial_insects_in_garden_ecosystem",
+      "keywords": ["côn trùng có lợi", "bọ rùa", "ong thụ phấn", "kiểm soát sâu bệnh tự nhiên"],
+      "content": "Xây dựng hệ sinh thái sân vườn thân thiện với côn trùng có lợi: Thu hút các loài như bọ rùa (ăn rệp sáp), ong và bướm (thụ phấn cho hoa) bằng cách trồng đan xen các loài hoa thảo mộc như cúc vạn thọ, hương thảo, oải hương, tạo thế cân bằng sinh học tự nhiên bền vững."
+    },
+    {
+      "topic": "plant_hardening_off_process",
+      "keywords": ["tôi luyện cây con", "hardening off", "thích nghi ánh sáng", "chuyển cây ra ngoài trời"],
+      "content": "Quy trình tôi luyện cây con (Hardening off) trước khi trồng ra ngoài trời: Từ từ cho cây con tiếp xúc với ánh nắng nhẹ, gió và nhiệt độ thay đổi bên ngoài trong vòng 7-10 ngày nhằm giúp lớp biểu bì lá dày lên, bộ khung cứng cáp, tránh tình trạng bị sốc nhiệt và héo rũ khi gặp môi trường khắc nghiệt."
+    }
+  ]
+}

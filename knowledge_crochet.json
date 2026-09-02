@@ -1,0 +1,154 @@
+{
+  "crochet_and_fiber_arts": [
+    {
+      "topic": "crochet_hooks_and_materials",
+      "keywords": ["kim móc", "kích thước kim", "len sợi", "cotton", "milk cotton", "acrylic"],
+      "content": "Phân loại kim móc và chất liệu sợi: Kim móc có các kích cỡ từ 0.5mm đến trên 10mm, tương thích trực tiếp với độ dày của cuộn len (như sợi milk cotton, yarn art jeans, wool). Lựa chọn đúng cặp đôi kim và sợi quyết định độ căng đều và độ đứng phom của sản phẩm."
+    },
+    {
+      "topic": "fundamental_crochet_stitches",
+      "keywords": ["mũi bính", "chain", "mũi đơn", "single crochet", "mũi kép đơn", "double crochet"],
+      "content": "Hệ thống các mũi móc nền tảng trong crochet: Bao gồm mũi bính (ch - chain) làm nền, mũi đơn (sc - single crochet) tạo độ chắc, mũi nửa kép (hdc), mũi kép đơn (dc - double crochet) và mũi trượt (sl st - slip stitch) để kết vòng."
+    },
+    {
+      "topic": "amigurumi_shaping_and_techniques",
+      "keywords": ["amigurumi", "thú bông len", "vòng tròn ma thuật", "magic ring", "tăng mũi inc", "giảm mũi dec"],
+      "content": "Kỹ thuật móc thú bông Amigurumi chuyên nghiệp: Khởi đầu bằng vòng tròn ma thuật (magic ring), sử dụng mũi đơn khít nhau để không lộ bông bên trong, kết hợp kỹ thuật tăng mũi (increase - inc) và giảm mũi ẩn (invisible decrease - dec) để tạo khối 3D sống động."
+    },
+    {
+      "topic": "reading_crochet_charts_and_patterns",
+      "keywords": ["chart móc", "ký hiệu móc len", "đọc pattern", "sơ đồ móc", "viết tắt crochet"],
+      "content": "Đọc hiểu biểu đồ (chart) và hướng dẫn viết (pattern) quốc tế: Nắm vững các chữ viết tắt tiêu chuẩn (US/UK terms) như sc, dc, inc, dec, sk và các ký hiệu hình học trong sơ đồ tròn hoặc sơ đồ hàng ngang để thực hiện chính xác thiết kế."
+    },
+    {
+      "topic": "color_changes_and_tapestry_crochet",
+      "keywords": ["đổi màu len", "tapestry crochet", "móc họa tiết", "giấu sợi", "sọc màu"],
+      "content": "Kỹ thuật đổi màu len mượt mà và móc thảm họa tiết (Tapestry Crochet): Đổi màu ở mũi cuối cùng của hàng/mũi trước đó để mối nối nằm gọn gàng, đồng thời kẹp (giấu) sợi len thừa dọc theo đường móc để tạo hình các bức tranh, họa tiết nhiều màu sắc trên mặt vải len."
+    },
+    {
+      "topic": "blocking_and_shaping_finished_pieces",
+      "keywords": ["blocking len", "cố định phom dáng", "hơi nước", "giữ form sản phẩm"],
+      "content": "Phương pháp định hình và xử lý hoàn thiện sản phẩm (Blocking): Sử dụng bàn ghim chuyên dụng kết hợp phun hơi nước hoặc giặt nhẹ rồi ghim căng các góc cạnh của sản phẩm (khăn quàng, áo, họa tiết hoa văn) giúp phom dáng phẳng phiu, sắc sảo và chuẩn kích thước thiết kế."
+    },
+    {
+      "topic": "granny_square_construction",
+      "keywords": ["granny square", "ô vuông bà ngoại", "ghép nối mảnh", "họa tiết cổ điển"],
+      "content": "Nghệ thuật móc ô vuông Granny Square kinh điển: Khởi động từ tâm vòng tròn bính, phát triển thành các lớp ô vuông đan xen giữa cụm mũi kép và khoảng trống bính. Các ô vuông này có thể biến tấu đa dạng và ghép nối lại với nhau thành chăn, áo khoác cardigan hoặc túi xách thời trang."
+    },
+    {
+      "topic": "yarn_fiber_properties_and_care",
+      "keywords": ["giặt len", "bảo quản đồ len", "độ co rút", "sợi lông cừu", "sợi tổng hợp"],
+      "content": "Đặc tính các loại sợi và cách bảo quản sản phẩm len: Sợi tự nhiên (len cừu, alpaca,mohair) cần giặt tay bằng nước lạnh với xà phòng dịu nhẹ, không vắt mạnh để tránh xù lông và co rút; trong khi sợi tổng hợp (acrylic, polyester) bền bỉ và dễ giặt máy hơn."
+    },
+    {
+      "topic": "surface_embroidery_on_crochet",
+      "keywords": ["thêu trên len", "trang trí thú bông", "tạo mắt mũi miệng", "khâu ráp các bộ phận"],
+      "content": "Kỹ thuật thêu bề mặt và khâu ráp chi tiết: Sử dụng kim đầu tù luồn qua các thớ len để thêu lông mày, má hồng, miệng cho thú bông Amigurumi, kết hợp kỹ thuật khâu ráp tàng hình (invisible seaming) để gắn kết các bộ phận tay, chân, đầu vào thân chắc chắn mà không lộ chỉ."
+    },
+    {
+      "topic": "c2c_corner_to_corner_crochet",
+      "keywords": ["c2c crochet", "corner to corner", "móc chéo", "pixel crochet", "chăn họa tiết"],
+      "content": "Phương pháp móc chéo góc tới góc (C2C - Corner to Corner): Bắt đầu móc từ một góc chéo của ô vuông và phát triển dần theo đường chéo thành các khối ô vuông nhỏ (pixel), cho phép tạo ra những chiếc chăn hoặc gối có hình ảnh nhân vật, tranh phong phú theo sơ đồ pixel."
+    },
+    {
+      "topic": "tunisian_crochet_technique",
+      "keywords": ["tunisian crochet", "móc tunis", "kim dài", "hiệu ứng đan len"],
+      "content": "Kỹ thuật móc kết hợp đan Tunisian Crochet (Afghan crochet): Sử dụng loại kim móc dài đặc biệt giữ nhiều mũi trên thân kim trong một hàng, tạo ra bề mặt vải len dày dặn, ấm áp, có độ đàn hồi thấp và mang hiệu ứng thẩm mỹ lai giữa móc và đan."
+    },
+    {
+      "topic": "filet_crochet_mesh_art",
+      "keywords": ["filet crochet", "móc lưới", "họa tiết chữ", "ren lưới ô vuông"],
+      "content": "Nghệ thuật móc lưới trang trí (Filet Crochet): Xây dựng cấu trúc từ các ô lưới trống (ô bính) và ô lưới đặc (các mũi kép liền kề) để tạo ra các bức tranh ren, rèm cửa, khăn trải bàn tinh xảo với các dòng chữ, hoa văn cổ điển mang phong cách hoàng gia."
+    },
+    {
+      "topic": "freeform_crochet_art",
+      "keywords": ["freeform crochet", "móc tự do", "phá cách len sợi", "nghệ thuật trừu tượng"],
+      "content": "Phong cách móc tự do (Freeform Crochet): Không tuân theo bất kỳ biểu đồ hay quy chuẩn nào, kết hợp ngẫu hứng các hình khối, dải sợi xoắn ốc (scrumbles), màu sắc và chất liệu khác nhau để tạo nên các tác phẩm nghệ thuật dệt may độc bản mang tính cá nhân cao."
+    },
+    {
+      "topic": "invisible_decrease_and_clean_edges",
+      "keywords": ["giảm mũi tàng hình", "viền sắc nét", "không lộ mối nối", "kỹ thuật nâng cao"],
+      "content": "Kỹ thuật giảm mũi tàng hình (Invisible Decrease) và hoàn thiện đường viền: Khi móc vòng, thay vì giảm mũi thông thường gây ra lỗ hổng, kỹ thuật lấy nửa sợi phía trước (front loop) của 2 mũi liền kề giúp bề mặt sản phẩm liền mạch, phẳng mịn hoàn hảo."
+    },
+    {
+      "topic": "wearable_garment_sizing_and_gauge",
+      "keywords": ["mẫu áo len", "thử mẫu gauge", "đo kích thước", "thiết kế trang phục"],
+      "content": "Xác định tỷ lệ mẫu (Gauge swatch) và tính toán kích thước trang phục móc: Trước khi tiến hành móc áo khoác hay váy len, bắt buộc phải móc một mẫu thử kích thước 10x10cm để đếm số mũi/hàng, từ đó quy đổi chính xác số đo cơ thể thành số lượng mũi móc cần thiết."
+    },
+    {
+      "topic": "crochet_lace_and_doilies",
+      "keywords": ["móc ren", "doily", "sợi chỉ nhỏ", "kim móc siêu nhỏ", "hoa văn cổ điển"],
+      "content": "Nghệ thuật móc ren chỉ tinh xảo (Crochet Lace & Doilies): Sử dụng kim móc siêu nhỏ (0.5mm - 1.25mm) cùng chỉ cotton mảnh (size 10, 20) để tạo ra các tấm lót ly, khăn trải bàn hình tròn hoặc lục giác với các họa tiết hoa lá đối xứng vô cùng phức tạp và tinh tế."
+    },
+    {
+      "topic": "wire_crochet_jewelry",
+      "keywords": ["móc dây kim loại", "trang sức đồng", "vòng cổ len kim loại", "wire crochet"],
+      "content": "Kỹ thuật móc kết hợp dây đồng/dây bạc mảnh (Wire Crochet): Sử dụng kim móc thông thường để tạo hình các sợi kim loại thành vòng tay, nhẫn, hoa tai hoặc dây chuyền có độ đứng phom nghệ thuật, kết hợp đính đá quý hoặc hạt cườm lấp lánh."
+    },
+    {
+      "topic": "bag_bottoms_and_structural_lining",
+      "keywords": ["túi xách len", "đế túi da", "lót vải túi", "khung túi xách", "chống xệ túi"],
+      "content": "Thiết kế cấu trúc và lót trong cho túi xách len: Để túi xách handmade không bị xệ đáy khi đựng đồ nặng, cần kết hợp sử dụng đế túi da/nhựa định hình, móc bằng sợi thô cứng (sợi thừng dẹt, sợi dù) và may lớp lót vải bên trong có ngăn khóa kéo chuyên nghiệp."
+    },
+    {
+      "topic": "slip_stitch_surface_crochet",
+      "keywords": ["surface slip stitch", "móc trượt bề mặt", "thêu nổi bằng kim", "đường gân trang trí"],
+      "content": "Kỹ thuật móc trượt bề mặt (Surface Slip Stitch): Đưa kim xuyên qua các thớ vải len đã hoàn thành để móc các đường gân nổi trang trí, tạo chữ viết, đường viền sắc nét hoặc tăng độ cứng cáp cho miệng túi và cổ áo."
+    },
+    {
+      "topic": "hairpin_lace_crochet",
+      "keywords": ["hairpin lace", "khung chữ u", "nơ kẹp tóc", "dải ren bồng bềnh"],
+      "content": "Kỹ thuật móc ren khung chữ U (Hairpin Lace): Sử dụng khung kim loại chữ U đặc biệt kết hợp kim móc để tạo ra các dải ren bồng bềnh, mỏng nhẹ như mây, sau đó nối các dải này lại thành khăn choàng hoặc áo choàng biển thướt tha."
+    },
+    {
+      "topic": "broomstick_lace_technique",
+      "keywords": ["broomstick lace", "que đan lớn", "họa tiết lông công", "ren chổi"],
+      "content": "Kỹ thuật móc ren cán chổi (Broomstick Lace): Sử dụng một cây kim đan cỡ đại hoặc thanh nhựa dẹt kết hợp kim móc để kéo các vòng sợi dài, sau đó chụm các nhóm vòng lại bằng mũi đơn tạo thành họa tiết mắt phượng hoặc lông công độc đáo."
+    },
+    {
+      "topic": "modular_crochet_and_freeform",
+      "keywords": ["modular crochet", "móc lắp ghép", "hình lục giác", "ghép khối sáng tạo"],
+      "content": "Phương pháp móc mô-đun (Modular Crochet): Móc các mảnh hình học nhỏ (lục giác, ngũ giác, tam giác) liên kết trực tiếp vào nhau trong quá trình móc mà không cần cắt chỉ hay khâu ráp sau cùng, tối ưu hóa thời gian hoàn thành các tấm thảm hoặc chăn lớn."
+    },
+    {
+      "topic": "edgings_and_borders_finishing",
+      "keywords": ["viền áo len", "móc biên", "mũi sò", "shell stitch", "hoàn thiện sản phẩm"],
+      "content": "Kỹ thuật móc viền trang trí biên sản phẩm (Edgings & Borders): Sử dụng các mũi sò (Shell stitch), mũi pikot (picot) hoặc viền cua (crab stitch - mũi đơn ngược) để tạo lớp viền bao quanh cổ áo, tay áo hoặc khăn trải bàn, che đi khuyết điểm cắt chỉ và tăng độ sắc nét."
+    },
+    {
+      "topic": "bobble_and_popcorn_stitch_textures",
+      "keywords": ["mũi bobble", "mũi popcorn", "mũi phồng", "hiệu ứng 3d nổi"],
+      "content": "Tạo hiệu ứng khối nổi 3D bằng mũi phồng (Bobble, Popcorn và Puff stitch): Gom nhiều mũi kép chưa hoàn thiện chung một chân rồi thắt lại thành các hạt nổi sần sùi vui mắt trên bề mặt sản phẩm, thường dùng làm họa tiết trái tim, chấm bi trên áo thắt bím hoặc gối tựa."
+    },
+    {
+      "topic": "mosaic_crochet_colorwork",
+      "keywords": ["mosaic crochet", "mosaic họa tiết", "đổi màu độc đáo", "không cắt chỉ liên tục"],
+      "content": "Kỹ thuật móc Mosaic đa sắc (Mosaic Crochet Colorwork): Tạo ra các họa tiết hình học phong cách Aztec hoặc Bắc Âu phức tạp chỉ bằng cách thay đổi sợi qua các hàng mà không cần đan cài hay giấu quá nhiều mối chỉ thừa, cấu trúc vải tạo thành vô cùng dày dặn và ấm áp."
+    },
+    {
+      "topic": "solomon_knot_stitch",
+      "keywords": ["solomon knot", "nút thắt solomon", "móc lưới bồng bềnh", "khăn choàng mỏng"],
+      "content": "Kỹ thuật móc nút thắt Solomon (Solomon's Knot / Lover's Knot): Sử dụng các vòng kéo dài kết hợp mũi đơn để tạo ra cấu trúc lưới thưa, nhẹ bẫng và co giãn tuyệt đối, cực kỳ thích hợp để móc các loại khăn choàng biển mùa hè hoặc áo khoác lưới thời trang."
+    },
+    {
+      "topic": "blocking_molds_for_amigurumi",
+      "keywords": ["khuôn định hình", "lõi thép thú bông", "khung xương thú len", "giữ dáng amigurumi"],
+      "content": "Sử dụng khung xương thép và khuôn định hình cho thú bông lớn: Đối với các mẫu búp bê hoặc thú amigurumi kích thước lớn, luồn khung xương dây kẽm uốn dẻo vào bên trong thân trước khi nhồi bông để các khớp cổ, tay, chân có thể cử động linh hoạt theo ý muốn."
+    },
+    {
+      "topic": "recycled_tshirt_yarn_crochet",
+      "keywords": ["sợi thun t-shirt", "len tái chế", "móc giỏ đựng đồ", "thảm chân chắc chắn"],
+      "content": "Nghệ thuật móc bằng sợi vải thun tái chế (T-shirt Yarn): Cắt các dải áo thun cũ thành cuộn sợi lớn để móc các loại giỏ đựng đồ đa năng, thảm chùi chân hoặc đôn ngồi có độ đứng phom cực cao, bền bỉ và mang tính ứng dụng tái chế bảo vệ môi trường."
+    },
+    {
+      "topic": "amigurumi_safety_eyes_and_hardware",
+      "keywords": ["mắt thú an toàn", "safety eyes", "khớp nối nhựa", "phụ kiện amigurumi"],
+      "content": "Lựa chọn và lắp đặt phụ kiện an toàn cho thú bông: Sử dụng mắt thú có chốt khóa vặn phía sau (safety eyes) hoặc khớp nối quay (joint) cho phần đầu/tay chân của búp bê, đảm bảo chắc chắn, không bị rơi rớt và an toàn tuyệt đối cho trẻ nhỏ khi sử dụng."
+    },
+    {
+      "topic": "blocking_wires_and_pins_setup",
+      "keywords": ["dây chặn blocking", "ghim inox", "căng phẳng khăn ren", "dụng cụ hoàn thiện"],
+      "content": "Quy trình sử dụng bộ dây chặn inox chuyên dụng (Blocking Wires) kết hợp ghim định hình: Luồn các thanh dây inox qua viền ngoài của khăn ren hình tròn hoặc hình vuông rồi kéo căng ghim cố định trên thảm xốp, giúp sản phẩm đạt độ đối xứng tuyệt đối sau khi khô."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "gemology_and_precious_stones": [
+    {
+      "topic": "mineralogy_and_moh_hardness_scale",
+      "keywords": ["thang độ cứng mohs", "khoáng vật học", "cấu trúc tinh thể", "độ bền đá quý", "cát kết"],
+      "content": "Nghiên cứu chuyên sâu về thang độ cứng Mohs từ 1 đến 10 của khoáng vật (từ Talc đến Kim cương) và ứng dụng thực tế trong việc đánh giá độ bền, khả năng chống trầy xước của các loại đá quý khi chế tác trang sức. Phân tích cấu trúc mạng tinh thể lập phương, sáu phương, hoặc trực thoi ảnh hưởng trực tiếp đến hiện tượng cát dính và độ dai (toughness) của viên ngọc."
+    },
+    {
+      "topic": "jadeite_jade_and_nephrite_distinction",
+      "keywords": ["ngọc cẩm thạch", "jadeite", "nephrite", "bửu ngọc", "cấu trúc vi sợi", "độ trong ice jade"],
+      "content": "Phân định chi tiết giữa Jadeite (Cẩm thạch tự nhiên - khoáng pyroxene natri nhôm) và Nephrite (Ngọc bích - khoáng amphibol canxi magie). Đánh giá dựa trên cấu trúc vi sợi đan xen (interlocking microfibers), độ trong từ đục đến băng chủng (ice jade), thủy tinh quang học và các cấp độ xử lý A, B, C, B+C cực kỳ khắt khe trên thị trường quốc tế."
+    },
+    {
+      "topic": "burmese_ruby_and_pigeon_blood",
+      "keywords": ["ruby mỏ Mogok", "huyết bồ câu", "pigeon blood", "chromophore", "bao thể rutil", "silk"],
+      "content": "Tiêu chuẩn định giá Ruby tự nhiên gốc Myanmar (Mogok/Mong Hsu) và sắc thái đỉnh cao 'Huyết bồ câu' (Pigeon's Blood). Phân tích sự hiện diện của nguyên tố vi lượng Crom tạo màu, sự tán sắc ánh sáng kết hợp cùng các bao thể lụa rutil (silk inclusions) tạo nên hiệu ứng quang học tán xạ nhung mềm mại đặc trưng."
+    },
+    {
+      "topic": "sapphire_varieties_and_color_shift",
+      "keywords": ["sapphire", "padparadscha", "đổi màu sapphire", "color change", "saphir sao", "asterism"],
+      "content": "Hệ thống phân loại các dòng Sapphire cao cấp ngoài sắc xanh hoàng gia (Royal Blue) và xanh khổng tước (Cornflower Blue): Dòng Padparadscha hiếm hoi mang sắc hồng cam tự nhiên, dòng đổi màu (Color-change sapphire) biến đổi dưới ánh sáng ban ngày và ánh đèn sợi đốt, cùng hiện tượng sao 6 cánh (Asterism) do các bao thể kim tuyến rutil định hướng."
+    },
+    {
+      "topic": "emerald_origin_and_jardin_inclusions",
+      "keywords": ["ngọc lục bảo", "emerald", "vườn ngọc jardin", "tẩm dầu ngọc", "fissure filling", "colombia"],
+      "content": "Đặc điểm học thuật của Ngọc lục bảo (Emerald) xuất xứ từ Colombia (Muzo, Chivor), Zambia và Brazil. Khảo sát hệ thống bao thể tự nhiên phức tạp được ví như 'khu vườn' (Jardin), kỹ thuật xử lý lấp đầy khe nứt bằng dầu tuyết tùng hoặc nhựa nhân tạo (Fissure filling) để nâng cao độ trong suốt và quy chuẩn kiểm định quốc tế."
+    },
+    {
+      "topic": "diamond_4cs_and_optical_symmetry",
+      "keywords": ["kim cương 4cs", "carat", "color", "clarity", "cut", "hearts and arrows", "giác cắt ideal"],
+      "content": "Hệ thống tiêu chuẩn quốc tế 4Cs của GIA đối với kim cương thiên nhiên: Trọng lượng (Carat), Màu sắc (Color từ D đến Z), Độ tinh khiết (Clarity từ FL đến I3), và Giác cắt (Cut). Phân tích sâu về tỷ lệ góc cắt lý tưởng (Ideal cut) tạo hiệu ứng phản xạ toàn phần và hiện tượng 8 trái tim 8 mũi tên (Hearts & Arrows)."
+    },
+    {
+      "topic": "gemstone_treatments_and_enhancements",
+      "keywords": ["xử lý đá quý", "nhiệt luyện", "diffusion", "xử lý thủy tinh chì", "irradiation", "nhận diện phòng lab"],
+      "content": "Tổng hợp toàn diện các phương pháp xử lý cải thiện chất lượng đá quý: Nhiệt luyện (Heat treatment) làm sạch màu, xử lý khuyếch tán mạng tinh thể (Be diffusion), xử lý lấp đầy khe nứt bằng thủy tinh chì (Lead glass filling đối với Ruby non), và phương pháp chiếu xạ tạo màu. Kỹ thuật nhận diện bằng kính hiển vi ngọc học và phổ kế."
+    },
+    {
+      "topic": "synthetic_and_lab_grown_gemstones",
+      "keywords": ["đá tổng hợp", "lab grown", "flame fusion", "flux method", "hydrothermal", "hpht cvd kim cương"],
+      "content": "Phân biệt đá tự nhiên và đá tổng hợp phòng thí nghiệm (Lab-grown gems): Phương pháp Verneuil (Flame fusion), phương pháp dung môi (Flux), phương pháp thủy nhiệt (Hydrothermal) tạo ra Emerald, Ruby, Sapphire nhân tạo. Công nghệ ép nhiệt cao áp (HPHT) và lắng đọng hơi hóa học (CVD) trong sản xuất kim cương nuôi cấy."
+    },
+    {
+      "topic": "spectroscopy_and_gemological_instruments",
+      "keywords": ["dụng cụ ngọc học", "refractometer", "spectroscope", "polariscope", "chriva loupe", "khúc xạ kế"],
+      "content": "Sử dụng thành thạo các thiết bị phân tích ngọc học chuyên sâu: Khúc xạ kế (Refractometer) đo chỉ số chiết suất RI và lưỡng chiết suất, kính phân quang (Spectroscope) đọc vạch hấp thụ ánh sáng, phân cực kính (Polariscope) xác định tính đẳng hướng hay dị hướng quang học, và kính lúp 10x (Aplanatic Triplet Loupe)."
+    },
+    {
+      "topic": "type_a_b_c_jadeite_identification",
+      "keywords": ["cẩm thạch hàng a", "hàng b", "hàng c", "tẩy axit", "nhựa polyme", "kiểm định cẩm thạch"],
+      "content": "Quy trình kiểm định chuyên sâu phân loại Cẩm thạch (Jadeite): Hàng A hoàn toàn tự nhiên; Hàng B qua xử lý tẩy axit mạnh loại bỏ tạp chất oxit sắt và bơm tẩm nhựa polymer; Hàng C nhuộm màu nhân tạo; Hàng B+C kết hợp cả tẩy rửa và nhuộm màu. Phương pháp nhận diện qua phổ hồng ngoại biến đổi Fourier (FTIR)."
+    },
+    {
+      "topic": "spinel_the_great_imposter",
+      "keywords": ["đá spinel", "đỏ spinel", "hoàng đế black prince", "lịch sử đá quý", "chiết suất đơn"],
+      "content": "Nghiên cứu về Đá Spinel - khoáng vật từng bị nhầm lẫn lịch sử với Ruby trên vương miện hoàng gia Anh. Cấu trúc tinh thể lập phương mang tính chất chiết suất đơn, độ cứng 8, màu sắc rực rỡ từ đỏ rực, hồng đậm, xanh cobalt đến tím lavender, hiện đang là xu hướng đầu tư thay thế Ruby."
+    },
+    {
+      "topic": "chrysoberyl_alexandrite_phenomenon",
+      "keywords": ["alexandrite", "chrysoberyl", "đổi màu ban ngày ban đêm", "hiệu ứng alexandrite", "chromium"],
+      "content": "Khám phá siêu phẩm Chrysoberyl biến đổi màu độc đáo - Alexandrite: Hiện tượng đổi màu kỳ diệu từ xanh lục (dưới ánh sáng huỳnh quang/ban ngày) sang đỏ tím/đỏ hồng (dưới ánh sáng đèn sợi đốt) do sự hấp thụ ánh sáng mạnh mẽ của ion Crom trong cấu trúc tinh thể trực thoi."
+    },
+    {
+      "topic": "tourmaline_varieties_and_polychromism",
+      "keywords": ["đá tourmaline", "tourmaline dưa hấu", "indicolite", "paraiba tourmaline", "đồng copper"],
+      "content": "Đặc tính khoáng vật học phức tạp của Tourmaline: Dòng Paraiba Tourmaline cực hiếm mang sắc xanh neon phát sáng nhờ hoạt chất Đồng (Copper) và Mangan; dòng dưa hấu (Watermelon tourmaline) phân tầng màu hồng và xanh lục tự nhiên; hiện tượng đa sắc màu sắc thay đổi theo góc nhìn."
+    },
+    {
+      "topic": "opal_hydration_and_play_of_color",
+      "keywords": ["đá opal", "fire opal", "black opal", "hiệu ứng play of color", "silica spheres"],
+      "content": "Cơ chế quang học tạo nên hiện tượng 'vũ điệu màu sắc' (Play of color) ở đá Opal: Các khối cầu silica vi mô xếp chồng đều đặn nhiễu xạ ánh sáng trắng thành các dải quang phổ rực rỡ. Phân loại Opal đen Úc quý hiếm, Opal lửa Mexico và quản lý độ ẩm của opal để tránh hiện tượng nứt nẻ do mất nước."
+    },
+    {
+      "topic": "tanzanite_trichroism_and_heat_treatment",
+      "keywords": ["đá tanzanite", "trichroism", "đa sắc mạnh", "vùng merelani tanzania", "nhiệt luyện tanzanite"],
+      "content": "Nghiên cứu về Tanzanite - khoáng vật Zoisite chỉ xuất hiện duy nhất tại chân núi Kilimanjaro, Tanzania. Hiện tượng đa sắc cực mạnh (Trichroism) hiển thị 3 màu xanh lam, tím và nâu vàng tùy góc nhìn. Hầu hết Tanzanite trên thị trường đều qua nhiệt luyện ôn hòa để loại bỏ sắc nâu, làm nổi bật màu xanh tím hoàng gia."
+    },
+    {
+      "topic": "pearl_formation_culturing_and_grading",
+      "keywords": ["ngọc trai tự nhiên", "ngọc akoya", "ngọc tahiti", "ngọc south sea", "độ dày xà cừ", "luster"],
+      "content": "Khoa học hình thành và nuôi cấy ngọc trai nước mặn (Akoya, Tahiti đen huyền bí, South Sea ánh vàng kim) và ngọc trai nước ngọt. Các tiêu chuẩn định giá ngọc trai khắt khe gồm: Độ bóng láng (Luster), độ dày lớp xà cừ (Nacre thickness), bề mặt không tỳ vết (Surface cleanliness), hình dạng và kích thước."
+    },
+    {
+      "topic": "amber_and_organic_gemstones",
+      "keywords": ["hổ phách", "amber", "hóa thạch nhựa cây", "bao thể côn trùng", "ngọc san hô", "jet stone"],
+      "content": "Đặc tính các loại ngọc hữu cơ bao gồm Hổ phách (Amber - nhựa thông hóa thạch triệu năm chứa bao thể côn trùng nguyên vẹn), Ngọc trai, San hô đỏ (Coral) và Jet. Phương pháp kiểm định hổ phách thật giả bằng tia cực tím (UV fluorescence), độ tỷ trọng và thử nghiệm nhiệt tĩnh điện."
+    },
+    {
+      "topic": "quartz_varieties_amethyst_citrine_ametrine",
+      "keywords": ["thạch anh", "amethyst", "citrine", "ametrine", "thạch anh tóc", "rutile quartz", "cryptocrystalline"],
+      "content": "Hệ thống đa dạng của họ Thạch Anh (Quartz - SiO2): Phân nhóm thạch anh tinh thể lớn (Amethyst tím, Citrine vàng, Ametrine tím vàng kết hợp) và nhóm thạch anh ẩn tinh (Chalcedony, Agate, Jasper). Đánh giá giá trị của thạch anh tóc (Rutile/Tourmaline quartz) dựa trên mật độ và độ sắp xếp của các sợi tinh thể bên trong."
+    },
+    {
+      "topic": "jade_carving_art_and_motifs",
+      "keywords": ["chạm khắc ngọc", "mô típ phong thủy", "long phụng", "di lặc ngọc", "tượng ngọc nghệ thuật"],
+      "content": "Nghệ thuật điêu khắc và chế tác cẩm thạch, ngọc bích truyền thống: Phân tích các mô típ biểu tượng kinh điển trong văn hóa Á Đông (Long Phụng, Tỳ Hưu, Phật Di Lặc, Vòng Bản Hợi, Cành Trúc). Kỹ thuật tận dụng tối đa sắc độ ngọc tự nhiên (màu loang, sắc nguyên khối) để thổi hồn vào tác phẩm."
+    },
+    {
+      "topic": "feng_shui_gemstone_element_matching",
+      "keywords": ["ngũ hành phong thủy", "kim mộc thủy hoả thổ", "nạp âm bản mệnh", "đeo vòng hợp mệnh", "trường năng lượng"],
+      "content": "Ứng dụng khoa học phong thủy Á Đông trong việc lựa chọn màu sắc đá quý theo hệ Ngũ hành (Kim - Mộc - Thủy - Hỏa - Thổ) tương sinh tương khắc với bản mệnh chủ nhân, cân bằng tần số năng lượng sinh học (Biometric energy) và tối ưu hóa từ trường cá nhân."
+    },
+    {
+      "topic": "gemstone_cutting_styles_and_faceting",
+      "keywords": ["giác cắt đá quý", "faceting", "cabochon", "step cut", "brilliant cut", "tỷ lệ mài mòn"],
+      "content": "Kỹ thuật mài mòn và tạo hình đá quý: Phong cách mài mỏng cabochon (mặt vòm trơn) tối ưu cho ngọc cẩm thạch, opal, ngọc mắt mèo; phong cách cắt giác góc (Faceting như Brilliant cut, Step cut, Cushion cut) với các mặt phẳng kính toán học giúp tối ưu hóa hiện tượng phản xạ toàn phần và ánh lửa (fire) của viên đá."
+    },
+    {
+      "topic": "precious_metal_settings_for_gemstones",
+      "keywords": ["ổ trang sức", "vàng 18k", "vàng trắng", "platinum", "chấu giữ đá", "prong setting", "bezel setting"],
+      "content": "Kỹ thuật chế tác ổ trang sức kim loại quý tương thích với đá quý: Sử dụng Bạch kim (Platinum) và Vàng 18K (Au750) với các kỹ thuật giữ đá đỉnh cao như chấu (Prong), bọc mép (Bezel), nện chìm (Pavé setting) đảm bảo độ vững chắc tuyệt đối, bảo vệ viên ngọc quý khỏi va đập vật lý."
+    },
+    {
+      "topic": "gemological_laboratory_certificates",
+      "keywords": ["giấy kiểm định đá quý", "giấy sgc", "gie lab", "gia report", "pags", "pháp lý đá quý"],
+      "content": "Đọc hiểu và đánh giá các thông tin cốt lõi trên giấy chứng nhận kiểm định đá quý từ các phòng thí nghiệm uy tín quốc tế và nội địa (GIA, Gübelin, SSEF, SJC, PNJ): Xác minh mã số định danh, chủng loại khoáng vật, phương pháp xử lý, trọng lượng chính xác và sơ đồ bao thể minh bạch."
+    },
+    {
+      "topic": "rare_phenomenal_gemstones_collection",
+      "keywords": ["đá quý sưu tầm", "demantoid garnet", "tsavorite", "painite", "taaffeite", "benitoite"],
+      "content": "Hệ thống các dòng đá quý sưu tầm siêu hiếm dành cho giới thượng lưu: Garnet Demantoid xanh lục chứa bao thể đuôi ngựa (horsetail), Tsavorite tươi sáng, Painite (từng giữ kỷ lục hiếm nhất thế giới), Taaffeite và Benitoite. Tiêu chuẩn định giá dựa trên tính độc bản và số lượng giới hạn toàn cầu."
+    },
+    {
+      "topic": "care_cleaning_and_maintenance_of_gems",
+      "keywords": ["bảo quản trang sức", "vệ sinh đá quý", "sóng siêu âm", "hơi hóa chất", "tránh sốc nhiệt"],
+      "content": "Quy trình chăm sóc, vệ sinh và bảo quản trang sức đá quý đúng kỹ thuật: Nhận diện các loại đá nhạy cảm với hóa chất, axit hoặc sốc nhiệt (như Emerald dễ vỡ khi gặp máy rửa siêu âm nhiệt độ cao, Opal dễ mất nước). Sử dụng dung dịch xà phòng loãng, bàn chải lông mềm và cất giữ riêng biệt từng món trang sức."
+    },
+    {
+      "topic": "history_of_crown_jewels_and_lore",
+      "keywords": ["lịch sử đá quý hoàng gia", "hope diamond", "viên ruby thái dương", "truyền thuyết ngọc quý"],
+      "content": "Khám phá lịch sử và những truyền thuyết huyền bí xoay quanh các viên ngọc quý nổi tiếng thế giới (như Kim cương hy vọng Hope Diamond, Chuỗi ngọc hoàng gia, Ruby Black Prince). Giá trị văn hóa, lịch sử và dòng chảy sở hữu qua các triều đại phong kiến toàn cầu."
+    },
+    {
+      "topic": "market_valuation_factors_of_gemstones",
+      "keywords": ["định giá đá quý", "thị trường đá quý", "yếu tố cung cầu", "giá trị đầu tư", "chứng thực nguồn gốc"],
+      "content": "Phân tích các yếu tố kinh tế quyết định giá trị thương mại của đá quý: Nguồn gốc địa lý (Origin premium - ví dụ Ruby Mogok đắt hơn nhiều so với đá châu Phi), kích thước vượt trội, độ sạch hoàn hảo, sự biến động cung cầu toàn cầu và xu hướng đầu tư tích sản tài sản quý hiếm."
+    },
+    {
+      "topic": "garnet_family_diversity",
+      "keywords": ["họ đá garnet", "pyrope", "almandine", "spessartite", "rhodolite", "màu sắc đa dạng garnet"],
+      "content": "Khám phá thế giới đa dạng của họ khoáng vật Garnet (Ngọc hồng lựu): Từ dòng Pyrope và Almandine đỏ sẫm, Spessartite cam rực rỡ, đến dòng Rhodolite tím hồng ngọt ngào và Demantoid xanh lục bảo. Garnet hoàn toàn tự nhiên, không qua xử lý nhiệt nhưng sở hữu độ lấp lánh tuyệt vời."
+    },
+    {
+      "topic": "topaz_and_aquamarine_beryl_family",
+      "keywords": ["đá topaz", "aquamarine", "nhà beryl", "xanh biển thẳm", "chiếu xạ topaz"],
+      "content": "Phân tích nhóm khoáng vật Beryl xanh biển (Aquamarine) thanh khiết và dòng Topaz tự nhiên. Quy trình xử lý chiếu xạ và nhiệt luyện tạo nên các sắc thái Topaz xanh đậm (Swiss Blue, London Blue) phổ biến trên thị trường trang sức hiện đại cùng độ cứng 8 bền bỉ."
+    },
+    {
+      "topic": "peridot_and_meteorite_gems",
+      "keywords": ["đá peridot", "olivine", "đá thiên thạch pallasite", "nguồn gốc ngoài trái đất"],
+      "content": "Nguồn gốc độc đáo của đá Peridot (Olivine): Hình thành sâu trong lòng mỏ mantle Trái Đất và thậm chí được tìm thấy bên trong các thiên thạch rơi xuống từ ngoài không gian (Pallasite meteorites). Sắc xanh lục ánh vàng đặc trưng không đổi màu dưới mọi nguồn sáng nhân tạo."
+    },
+    {
+      "topic": "zircon_natural_vs_synthetic_cubic_zirconia",
+      "keywords": ["đá zircon tự nhiên", "phân biệt cubic zirconia", "tán sắc mạnh", "khoáng vật zircon"],
+      "content": "Phân định rõ ràng giữa khoáng vật Zircon tự nhiên (đá quý thiên nhiên có độ tán sắc mạnh mẽ gần bằng kim cương) và vật liệu nhân tạo Cubic Zirconia (CZ - chất giả kim cương phổ biến). Zircon tự nhiên chứa nguyên tố phóng xạ nhẹ uranium/thorium làm thay đổi cấu trúc quang học qua thời gian (dòng low-type và high-type)."
+    },
+    {
+      "topic": "turquoise_and_lapis_lazuli_opaque_gems",
+      "keywords": ["đá turquoise", "ngọc lam", "lapis lazuli", "thanh kim hải", "khoáng vật mờ"],
+      "content": "Nghiên cứu các dòng ngọc mờ cao cấp: Ngọc lam Turquoise với mạng lưới vân nhện đồng (Spiderweb matrix) lịch sử từ Ba Tư/Mỹ, và Lapis Lazuli (Thanh kim xanh thẳm đốm pyrite vàng kim lấp lánh) từng được các pharaoh Ai Cập cổ đại tôn sùng như đá của các vị thần."
+    },
+    {
+      "topic": "kunzite_and_spodumene_varieties",
+      "keywords": ["đá kunzite", "spodumene", "hiddenite", "sắc hồng lilac", "hiệu ứng pleochroism"],
+      "content": "Đặc tính khoáng vật Spodumene và biến thể màu hồng tím lãng mạn Kunzite. Hiện tượng đa sắc mạnh (Pleochroism) đòi hỏi người thợ mài phải định hướng góc cắt chính xác để màu hồng lilac hiển thị rực rỡ nhất. Lưu ý tính nhạy cảm với ánh nắng mặt trời kéo dài có thể làm phai màu đá."
+    },
+    {
+      "topic": "moonstone_and_feldspar_adularescence",
+      "keywords": ["đá mặt trăng", "moonstone", "hiệu ứng adularescence", "fenspat", "labradorite", "sunstone"],
+      "content": "Khảo sát nhóm khoáng vật Fenspat (Feldspar) với hiệu ứng quang học Ánh trăng kỳ ảo (Adularescence) ở Moonstone, hiệu ứng quang phổ cánh bướm rực rỡ ở Labradorite và ánh kim tuyến đồng lấp lánh ở Sunstone. Cấu trúc vi lớp quang học tạo nên chiều sâu huyền bí."
+    },
+    {
+      "topic": "chalcedony_and_agate_patterns",
+      "keywords": ["đá mã não", "chalcedony", "vân đá tự nhiên", "mã não mắt", "chế tác nhẫn nam"],
+      "content": "Nghệ thuật thẩm định và khai thác các dòng Chalcedony và Mã não (Agate) với các tầng vân tự nhiên độc bản. Ứng dụng phổ biến trong chế tác nhẫn nam phong thủy, vòng tay bản lớn nhờ độ dẻo dai cao, bề mặt sáng bóng sau khi đánh bóng và giá trị thẩm mỹ bền vững."
+    },
+    {
+      "topic": "hematite_and_pyrite_metallic_gems",
+      "keywords": ["đá hematite", "pyrite", "vàng của kẻ ngốc", "ánh kim loại", "từ tính đá quý"],
+      "content": "Đặc tính của các dòng đá quý ánh kim loại như Hematite (Đá máu xám bạc sáng bóng) và Pyrite (Đá vàng của kẻ ngốc với cấu trúc lập phương hoàn hảo tự nhiên). Khảo sát tỷ trọng cao, cấu trúc đặc biệt và ý nghĩa bảo hộ mạnh mẽ trong chế tác trang sức nam."
+    },
+    {
+      "topic": "zoisite_and_ruby_in_zoisite",
+      "keywords": ["ruby in zoisite", "anyolite", "sự kết hợp tự nhiên", "xanh lục hồng ngoại"],
+      "content": "Nghiên cứu về khối khoáng vật độc đáo Anyolite (Ruby in Zoisite) khai thác tại Tanzania: Sự hòa quyện hoàn hảo giữa nền đá Zoisite màu xanh lục/đen đậm và các tinh thể Ruby đỏ tự nhiên nằm xen kẽ bên trong, tạo nên nguồn nguyên liệu điêu khắc nghệ thuật vô cùng ấn tượng."
+    },
+    {
+      "topic": "fluorite_and_collector_soft_gems",
+      "keywords": ["đá fluorite", "huỳnh thạch", "độ cứng thấp", "huỳnh quang mạnh", "sưu tầm khoáng vật"],
+      "content": "Đặc điểm của đá Huỳnh thạch (Fluorite) với độ cứng thấp (chỉ số 4) và hiện tượng phát huỳnh quang mạnh mẽ dưới tia UV (nguồn gốc tên gọi fluorescence). Dù không thích hợp làm trang sức đeo hàng ngày do dễ trầy xước, Fluorite lại là cực phẩm trong giới sưu tầm mẫu vật tinh thể tự nhiên."
+    },
+    {
+      "topic": "gemstone_investment_and_liquidity",
+      "keywords": ["đầu tư đá quý", "tích sản tài sản", "tính thanh khoản", "viên chủ độc bản", "chứng nhận quốc tế"],
+      "content": "Chiến lược đầu tư và tích sản tài sản thông qua đá quý cao cấp: Tiêu chuẩn lựa chọn các viên đá chủ (Center stone) không xử lý, trọng lượng lớn, có chứng nhận GIA/Gübelin tuyệt đối, đảm bảo tính thanh khoản cao, biên độ tăng giá bền vững trước lạm phát so với các kênh tài sản truyền thống."
+    },
+    {
+      "topic": "future_of_gemology_ai_and_testing",
+      "keywords": ["công nghệ kiểm định ngọc học", "ai phân tích bao thể", "phổ kế raman", "phân tích đồng vị", "tương lai ngành ngọc"],
+      "content": "Ứng dụng công nghệ đỉnh cao trong ngọc học hiện đại: Máy quang phổ Raman, phổ huỳnh quang X-ray (EDXRF), phân tích đồng vị carbon/nitơ xác định chính xác nguồn gốc địa lý tuyệt đối và sự hỗ trợ của Trí tuệ nhân tạo (AI) trong việc nhận diện bao thể và mô hình hóa giác cắt tối ưu."
+    }
+  ]
+}

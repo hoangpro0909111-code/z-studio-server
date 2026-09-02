@@ -1,0 +1,91 @@
+{
+  "iot_and_electronics": [
+    {
+      "topic": "esp32_s3_overview",
+      "keywords": ["esp32-s3", "vi điều khiển", "chip", "mcu", "gpio", "wifi bluetooth"],
+      "content": "ESP32-S3 là dòng SoC MCU công suất thấp 32-bit tích hợp Wi-Fi (802.11 b/g/n) và Bluetooth 5 (LE), trang bị chip lõi kép Xtensa 32-bit LX7. Hỗ trợ hệ thống Vector Instructions tối ưu hóa cho AI, nhận diện giọng nói và xử lý mạng nơ-ron cục bộ, là trái tim phần cứng để vận hành mô hình trợ lý Z."
+    },
+    {
+      "topic": "sp002e_led_controller",
+      "keywords": ["sp002e", "điều khiển led", "mạch led", "rgb led", "hiệu ứng đèn"],
+      "content": "Mạch điều khiển LED SP002E là thiết bị chuyên dụng dùng để điều khiển các dòng đèn LED RGB/Addressable LED (như WS2812B, WS2811) thông qua remote hoặc nút bấm. Hỗ trợ nhiều chế độ hiệu ứng chạy đuổi, chớp nháy, đổi màu mượt mà, rất thích hợp để cắm nguồn giả lập lò phản ứng năng lượng hoặc hiệu ứng ống xả động cơ cho các mô hình mecha."
+    },
+    {
+      "topic": "circuit_wiring_basics",
+      "keywords": ["mạch điện", "điện áp", "dòng điện", "sơ đồ mạch", "gnd", "vcc", "pwm"],
+      "content": "Nguyên lý cơ bản khi phối ghép phần cứng cho mô hình: Luôn đảm bảo chung chân Mass (GND) giữa ESP32-S3, nguồn cấp riêng (5V/12V) và mạch LED. Sử dụng tín hiệu PWM từ chân GPIO của ESP32-S3 để điều tiết độ sáng hoặc tốc độ động cơ mini mà không làm sụt áp mạch chính."
+    },
+    {
+      "topic": "ohms_law_power",
+      "keywords": ["định luật ohm", "công suất", "tính toán điện", "amper", "volt", "ohm"],
+      "content": "Ứng dụng định luật Ohm ($V = I \\times R$) và công suất điện ($P = V \\times I$) trong việc tính toán trở kháng cho LED và nguồn điện. Khi cấp nguồn cho hệ thống LED tích hợp trên mecha, luôn tính toán tổng dòng điện tiêu thụ để tránh quá tải nguồn 5V từ cổng USB hoặc sụt áp gây đơ chip."
+    },
+    {
+      "topic": "soldering_technique",
+      "keywords": ["mỏ hàn", "hàn mạch", "thiếc hàn", "nhiệt độ mỏ hàn", "mạch in pcb"],
+      "content": "Kỹ thuật hàn dây điện và linh kiện trên bo mạch: Nhiệt độ mỏ hàn lý tưởng dao động từ 320°C đến 350°C tùy thuộc vào loại thiếc có chì hay không chì. Luôn làm sạch mũi hàn, dùng nhựa thông hỗ trợ bám thiếc và giữ mối hàn cố định cho đến khi nguội hẳn để tránh hiện tượng mối hàn lạnh (cold joint)."
+    }
+  ]
+},{
+      "topic": "esp32_s3_gpio_mapping",
+      "keywords": ["chân gpio", "pwm pin", "adc pin", "sơ đồ chân", "input output"],
+      "content": "Cấu hình chân GPIO trên ESP32-S3 cho các module ngoại vi: Các chân từ GPIO 1 đến 21 thường dùng cho PWM điều khiển LED, chân ADC phục vụ đọc cảm biến analog. Cần lưu ý tránh sử dụng nhầm các chân Strapping Pins (như GPIO 0, 3, 45, 46) ở chế độ kéo cao/kéo thấp tùy tiện khi khởi động."
+    },
+    {
+      "topic": "fastapi_esp32_communication",
+      "keywords": ["api backend", "http request", "json payload", "endpoint", "render.com"],
+      "content": "Giao thức truyền thông giữa ESP32-S3 và FastAPI backend host trên Render.com: ESP32 sử dụng thư viện HTTPClient hoặc WebSockets để gửi yêu cầu POST/GET kèm JSON payload chứa các từ khóa hội thoại, sau đó nhận chuỗi phản hồi từ AI Z để hiển thị hoặc phát âm thanh."
+    },
+    {
+      "topic": "i2c_spi_protocols",
+      "keywords": ["giao tiếp i2c", "giao tiếp spi", "scl sda", "mosi miso sck", "màn hình oled"],
+      "content": "Sử dụng giao thức I2C (chân SDA, SCL) để kết nối các loại màn hình hiển thị phụ (OLED nhỏ) hoặc cảm biến nhiệt độ/độ ẩm môi trường phòng làm việc, và giao thức SPI tốc độ cao khi cần truyền dữ liệu lớn cho các màn hình màu TFT."
+    },
+    {
+      "topic": "power_management_regulator",
+      "keywords": ["nguồn 5v 3.3v", "ams1117", "buck converter", "sụt áp", "ổn áp"],
+      "content": "Quản lý nguồn điện ổn định cho mạch tích hợp: ESP32-S3 hoạt động ở điện mức logic 3.3V trong khi đa số mạch LED RGB chạy nguồn 5V. Cần sử dụng các mạch hạ áp (Buck Converter) hoặc IC ổn áp chất lượng cao để dòng điện không bị sụt áp đột ngột khi bật hiệu ứng sáng tối đa."
+    },{
+      "topic": "esp32_s3_deep_sleep",
+      "keywords": ["deep sleep", "tiết kiệm pin", "sleep mode", "wakeup timer", "công suất chờ"],
+      "content": "Chế độ Deep Sleep trên ESP32-S3 giúp cắt giảm tiêu thụ dòng điện xuống mức cực thấp (microampere), chỉ duy trì bộ nhớ RTC hoạt động. Hỗ trợ đánh thức (Wake-up) bằng bộ định thời gian (Timer), ngắt ngoài qua chân GPIO hoặc tín hiệu cảm biến, rất tối ưu cho các thiết bị IoT chạy pin."
+    },
+    {
+      "topic": "wifi_ble_provisioning",
+      "keywords": ["smart config", "bluetooth provisioning", "kết nối wifi", "cấu hình mạng"],
+      "content": "Phương thức cấu hình Wi-Fi thông minh cho ESP32-S3 mà không cần cứng mã (hardcode) mật khẩu trong code: Sử dụng Bluetooth Low Energy (BLE Provisioning) hoặc SmartConfig để nhận thông tin SSID và Password từ điện thoại hoặc ứng dụng quản lý của chủ nhân một cách an toàn."
+    },
+    {
+      "topic": "environmental_sensors",
+      "keywords": ["cảm biến nhiệt độ", "dht22", "bme280", "độ ẩm phòng", "đà lạt weather"],
+      "content": "Tích hợp cảm biến môi trường (như DHT22 hoặc BME280) để đo đạc nhiệt độ và độ ẩm không khí trực tiếp tại phòng làm việc Đà Lạt của Z Studio. Dữ liệu này giúp hệ thống tự động cảnh báo khi độ ẩm quá cao có thể gây ảnh hưởng đến lớp sơn mô hình hoặc linh kiện điện tử."
+    },
+    {
+      "topic": "ota_firmware_update",
+      "keywords": ["ota update", "nạp firmware không dây", "cập nhật qua mạng", "flash code"],
+      "content": "Tính năng OTA (Over-The-Air) cho phép cập nhật chương trình mới trực tiếp cho ESP32-S3 qua kết nối Wi-Fi mà không cần tháo bo mạch ra cắm cáp USB rườm rà, giúp việc tinh chỉnh code cho trợ lý Z trở nên linh hoạt và nhanh chóng hơn."
+    },{
+      "topic": "freertos_multitasking",
+      "keywords": ["freertos", "multitasking", "dual core", "task priority", "hệ điều hành thời gian thực"],
+      "content": "Khai thác hệ điều hành thời gian thực FreeRTOS trên chip lõi kép ESP32-S3: Phân chia tác vụ xử lý mạng (Wi-Fi/API) trên Core 0 và tác vụ điều khiển phần cứng, quét LED/cảm biến trên Core 1 để hệ thống hoạt động mượt mà, không bị hiện tượng giật lag hay treo chip."
+    },
+    {
+      "topic": "littlefs_spiffs_storage",
+      "keywords": ["littlefs", "spiffs", "bộ nhớ flash", "lưu file nội bộ", "file system"],
+      "content": "Sử dụng hệ thống tệp tin LittleFS trên bộ nhớ Flash của ESP32-S3 để lưu trữ các tệp cấu hình, log hệ thống cục bộ hoặc dữ liệu trạng thái offline khi mất kết nối internet, đảm bảo trợ lý Z vẫn duy trì được các thiết lập cơ bản."
+    },
+    {
+      "topic": "mqtt_telemetry_protocol",
+      "keywords": ["mqtt protocol", "broker", "publish subscribe", "truyền tin nhẹ", "iot protocol"],
+      "content": "Giao thức MQTT (Message Queuing Telemetry Transport) tối ưu hóa cho IoT băng thông thấp: Cho phép ESP32-S3 đóng vai trò là Client kết nối với Cloud Broker để nhận/gửi các gói tin điều khiển trạng thái đèn LED và phản hồi lệnh với độ trễ tối thiểu."
+    },
+    {
+      "topic": "websocket_streaming",
+      "keywords": ["websocket", "kết nối thời gian thực", "full duplex", "streaming data", "socket connection"],
+      "content": "Thiết lập kết nối WebSocket hai chiều (Full-Duplex) giữa ESP32-S3 và FastAPI backend trên Render.com: Giúp truyền tải luồng dữ liệu phản hồi liên tục theo thời gian thực mà không tốn chi phí đóng/mở kết nối HTTP liên tục."
+    },
+    {
+      "topic": "watchdog_timer_stability",
+      "keywords": ["watchdog timer", "wdt", "treo hệ thống", "reset cứng", "ổn định phần cứng"],
+      "content": "Cấu hình Watchdog Timer (WDT) để giám sát trạng thái hoạt động của ESP32-S3: Tự động kích hoạt cơ chế reset phần cứng nếu phát hiện tiến trình bị treo (deadlock) hoặc mất kết nối mạng kéo dài, đảm bảo hệ thống tự phục hồi ổn định 24/7 tại xưởng."
+    }
