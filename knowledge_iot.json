@@ -18,15 +18,14 @@
     {
       "topic": "ohms_law_power",
       "keywords": ["định luật ohm", "công suất", "tính toán điện", "amper", "volt", "ohm"],
-      "content": "Ứng dụng định luật Ohm ($V = I \\times R$) và công suất điện ($P = V \\times I$) trong việc tính toán trở kháng cho LED và nguồn điện. Khi cấp nguồn cho hệ thống LED tích hợp trên mecha, luôn tính toán tổng dòng điện tiêu thụ để tránh quá tải nguồn 5V từ cổng USB hoặc sụt áp gây đơ chip."
+      "content": "Ứng dụng định luật Ohm (V = I * R) và công suất điện (P = V * I) trong việc tính toán trở kháng cho LED và nguồn điện. Khi cấp nguồn cho hệ thống LED tích hợp trên mecha, luôn tính toán tổng dòng điện tiêu thụ để tránh quá tải nguồn 5V từ cổng USB hoặc sụt áp gây đơ chip."
     },
     {
       "topic": "soldering_technique",
       "keywords": ["mỏ hàn", "hàn mạch", "thiếc hàn", "nhiệt độ mỏ hàn", "mạch in pcb"],
       "content": "Kỹ thuật hàn dây điện và linh kiện trên bo mạch: Nhiệt độ mỏ hàn lý tưởng dao động từ 320°C đến 350°C tùy thuộc vào loại thiếc có chì hay không chì. Luôn làm sạch mũi hàn, dùng nhựa thông hỗ trợ bám thiếc và giữ mối hàn cố định cho đến khi nguội hẳn để tránh hiện tượng mối hàn lạnh (cold joint)."
-    }
-  ]
-},{
+    },
+    {
       "topic": "esp32_s3_gpio_mapping",
       "keywords": ["chân gpio", "pwm pin", "adc pin", "sơ đồ chân", "input output"],
       "content": "Cấu hình chân GPIO trên ESP32-S3 cho các module ngoại vi: Các chân từ GPIO 1 đến 21 thường dùng cho PWM điều khiển LED, chân ADC phục vụ đọc cảm biến analog. Cần lưu ý tránh sử dụng nhầm các chân Strapping Pins (như GPIO 0, 3, 45, 46) ở chế độ kéo cao/kéo thấp tùy tiện khi khởi động."
@@ -45,7 +44,8 @@
       "topic": "power_management_regulator",
       "keywords": ["nguồn 5v 3.3v", "ams1117", "buck converter", "sụt áp", "ổn áp"],
       "content": "Quản lý nguồn điện ổn định cho mạch tích hợp: ESP32-S3 hoạt động ở điện mức logic 3.3V trong khi đa số mạch LED RGB chạy nguồn 5V. Cần sử dụng các mạch hạ áp (Buck Converter) hoặc IC ổn áp chất lượng cao để dòng điện không bị sụt áp đột ngột khi bật hiệu ứng sáng tối đa."
-    },{
+    },
+    {
       "topic": "esp32_s3_deep_sleep",
       "keywords": ["deep sleep", "tiết kiệm pin", "sleep mode", "wakeup timer", "công suất chờ"],
       "content": "Chế độ Deep Sleep trên ESP32-S3 giúp cắt giảm tiêu thụ dòng điện xuống mức cực thấp (microampere), chỉ duy trì bộ nhớ RTC hoạt động. Hỗ trợ đánh thức (Wake-up) bằng bộ định thời gian (Timer), ngắt ngoài qua chân GPIO hoặc tín hiệu cảm biến, rất tối ưu cho các thiết bị IoT chạy pin."
@@ -64,7 +64,8 @@
       "topic": "ota_firmware_update",
       "keywords": ["ota update", "nạp firmware không dây", "cập nhật qua mạng", "flash code"],
       "content": "Tính năng OTA (Over-The-Air) cho phép cập nhật chương trình mới trực tiếp cho ESP32-S3 qua kết nối Wi-Fi mà không cần tháo bo mạch ra cắm cáp USB rườm rà, giúp việc tinh chỉnh code cho trợ lý Z trở nên linh hoạt và nhanh chóng hơn."
-    },{
+    },
+    {
       "topic": "freertos_multitasking",
       "keywords": ["freertos", "multitasking", "dual core", "task priority", "hệ điều hành thời gian thực"],
       "content": "Khai thác hệ điều hành thời gian thực FreeRTOS trên chip lõi kép ESP32-S3: Phân chia tác vụ xử lý mạng (Wi-Fi/API) trên Core 0 và tác vụ điều khiển phần cứng, quét LED/cảm biến trên Core 1 để hệ thống hoạt động mượt mà, không bị hiện tượng giật lag hay treo chip."
@@ -89,3 +90,5 @@
       "keywords": ["watchdog timer", "wdt", "treo hệ thống", "reset cứng", "ổn định phần cứng"],
       "content": "Cấu hình Watchdog Timer (WDT) để giám sát trạng thái hoạt động của ESP32-S3: Tự động kích hoạt cơ chế reset phần cứng nếu phát hiện tiến trình bị treo (deadlock) hoặc mất kết nối mạng kéo dài, đảm bảo hệ thống tự phục hồi ổn định 24/7 tại xưởng."
     }
+  ]
+}
