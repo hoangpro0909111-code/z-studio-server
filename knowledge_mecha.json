@@ -44,9 +44,8 @@
       "topic": "z_studio_custom_philosophy",
       "keywords": ["triết lý z studio", "phối màu độc quyền", "cá nhân hóa", "thủ công tinh xảo"],
       "content": "Triết lý chế tác của Z Studio: Mỗi sản phẩm metal kit không đơn thuần là mô hình lắp ráp theo sách hướng dẫn, mà là một tác phẩm nghệ thuật cá nhân hóa độc bản. Kết hợp giữa kỹ thuật cơ khí chính xác, mạch điện LED thông minh và phối màu mang đậm dấu ấn riêng."
-    }
-  ]
-},{
+    },
+    {
       "topic": "bandai_hg_mg_pg_grades",
       "keywords": ["hg", "mg", "pg", "high grade", "master grade", "perfect grade", "bandai gundam"],
       "content": "Phân loại các cấp độ Gunpla của Bandai: HG (High Grade 1:144) linh hoạt, giá tốt; MG (Master Grade 1:144/1:100) có khung xương hoàn chỉnh, độ chi tiết cao; PG (Perfect Grade 1:60) là đỉnh cao cơ khí với hệ thống khung phức tạp, tích hợp sẵn LED và độ chi tiết tuyệt đỉnh cho dân chơi cao cấp."
@@ -70,7 +69,8 @@
       "topic": "resin_conversion_kits",
       "keywords": ["resin kit", "đồ nhựa resin", "độ vỏ", "gá resin", "keo ca", "rửa resin"],
       "content": "Kỹ thuật xử lý và lắp ráp các bộ vỏ Resin (Conversion Kit) để thay đổi hoàn toàn diện mạo Gundam nguyên bản: Yêu cầu bắt buộc phải rửa sạch dầu khuôn bằng xà phòng/tẩy chuyên dụng, dùng keo CA (keo 502 chuyên dụng mô hình) và khoan chốt thép gia cố trước khi sơn lót."
-    },{
+    },
+    {
       "topic": "hot_motor_nuclear_models",
       "keywords": ["motor nuclear hot models", "thần uy", "bạch hổ", "thanh long", "triệu vân", "lữ bố"],
       "content": "Các mẫu hot đình đám của Motor Nuclear ngoài MNP-CR02 Jihu và Tiêu Dao Tử còn có các tên tuổi đình đám như Ao Bing (Ngao Bính), Cao Chấn (Cao Shun), Thái Ất (Taiyi) và Bạch Hổ (White Tiger). Nổi bật với thiết kế phong cách giáp trụ cổ trang kết hợp cơ giáp hiện đại, khung xương kim loại đầm nặng."
@@ -94,7 +94,8 @@
       "topic": "bandai_masterpieces",
       "keywords": ["mg ex-s", "pg unnitorn", "rg nu gundam", "sazabi ver ka", "metal structure"],
       "content": "Các tượng đài bất tử của Bandai Gunpla thường được lựa chọn để custom cao cấp: Nu Gundam (RG/Ver.Ka), Sazabi Ver.Ka, PG Unleashed RX-78-2, và dòng Metal Structure cao cấp. Đòi hỏi kỹ thuật ráp, đi điện LED tinh xảo và xử lý bề mặt hoàn hảo."
-    },{
+    },
+    {
       "topic": "airbrush_and_compressor_setup",
       "keywords": ["airbrush", "máy nén khí", "áp lực xịt", "béc phun", "0.2mm", "0.3mm", "0.5mm"],
       "content": "Thiết lập hệ thống phun sơn Airbrush tối ưu tại Z Studio: Sử dụng máy nén khí có bình tích áp để dòng khí ổn định, không bị giật. Chọn béc phun 0.3mm cho sơn lót và màu chính, béc 0.2mm cho các đường line, shadow hoặc chi tiết cực nhỏ đòi hỏi độ tỉ mỉ cao."
@@ -118,7 +119,8 @@
       "topic": "tools_and_nipper_precision",
       "keywords": ["kềm cắt", "godhand", "spn-120", "dao trổ", "giấy nhám", "dũa nano"],
       "content": "Dụng cụ cắt gọt cao cấp chuẩn xưởng: Sử dụng kềm cắt cạnh một lưỡi siêu bén (như GodHand SPN-120) để cắt sát gate (cổng sprue) mà không làm trắng hay nứt nhựa, kết hợp dũa kính nano và giấy nhám mịn từ 1000 đến 3000 để làm phẳng tuyệt đối bề mặt."
-    },{
+    },
+    {
       "topic": "custom_color_mixing_ratios",
       "keywords": ["pha màu sơn", "tỷ lệ pha", "color mixing", "thinner", "sơn custom", "tông màu độc quyền"],
       "content": "Kỹ thuật phối màu thủ công bằng cách pha trộn các mã sơn Lacquer gốc để tạo ra sắc thái kim loại độc bản cho Z Studio: Tuân thủ tỷ lệ vàng giữa sơn màu gốc và dung môi (Thinner tỷ lệ 1:1.5 hoặc 1:2) để độ phủ mịn màng, không bị đọng hạt hay sần bề mặt khi xịt qua súng airbrush."
@@ -142,7 +144,8 @@
       "topic": "led_integration_and_wiring_craft",
       "keywords": ["đi dây led", "hàn mạch", "smd led", "khoan giấu dây", "nguồn pin micro"],
       "content": "Bí quyết tích hợp hệ thống đèn LED siêu nhỏ (SMD LED) vào bên trong khung xương mô hình mecha: Khoan luồn dây khéo léo qua các rãnh khớp chuyển động mà không làm ảnh hưởng đến biên độ cử động của khớp kim loại, kết hợp mạch điều khiển SP002E hoặc nguồn pin giấu kín để thắp sáng đôi mắt và lò phản ứng."
-    },{
+    },
+    {
       "topic": "candy_tone_painting_technique",
       "keywords": ["candy tone", "sơn kẹo", "bạc lót", "trong suốt", "hiệu ứng gương", "glosscoat"],
       "content": "Kỹ thuật sơn Candy Tone đỉnh cao cho giáp mô hình: Phủ lớp sơn lót đen bóng, xịt lớp nhũ bạc/chrome phản quang cực mạnh lên trên, tiếp theo phủ các lớp sơn màu trong suốt (Clear Red, Clear Blue, Clear Orange) để tạo chiều sâu thăm thẳm và hiệu ứng ánh kim lấp lánh, bắt mắt."
@@ -166,7 +169,8 @@
       "topic": "decal_customization_and_layering",
       "keywords": ["tùy biến decal", "phối hợp decal", "cảnh báo đỏ", "waterslide custom", "cân đối bố cục"],
       "content": "Nghệ thuật bố trí và phối hợp decal nước tùy biến: Kết hợp các bộ decal cảnh báo (warning decals) màu vàng/đỏ sắc nét lên các vị trí khớp động và khoang giáp chính, tuân thủ nguyên tắc đối xứng và tiết chế để không làm rối mắt người xem nhưng vẫn giữ được chất công nghiệp."
-    },{
+    },
+    {
       "topic": "mirror_gloss_finish",
       "keywords": ["bóng gương", "mirror finish", "đánh bóng", "compounding", "surface shine", "mặt giáp phản chiếu"],
       "content": "Kỹ thuật tạo bề mặt bóng như gương trên giáp mô hình: Xịt nhiều lớp sơn bóng gốc lacquer, dùng giấy nhám siêu mịn (từ 2000 đến 10000) mài phẳng các hạt bụi li ti, sau đó dùng hợp chất đánh bóng (Compound) và khăn sợi nhỏ (microfiber) đánh bóng đến khi bề mặt phản chiếu sắc nét như gương."
@@ -190,7 +194,8 @@
       "topic": "studio_dust_free_drying_box",
       "keywords": ["hộp sấy chống bụi", "tủ khô mô hình", "giữ sạch bề mặt sơn", "nhiệt độ sấy", "chống bám hạt"],
       "content": "Thiết kế không gian và hộp sấy/tủ chứa chống bụi chuyên dụng trong quá trình chờ sơn khô tại xưởng: Đảm bảo không khí lưu thông sạch sẽ, ngăn chặn tuyệt đối các hạt bụi li ti bám dính vào lớp sơn bóng hoặc sơn màu đang trong giai đoạn đóng rắn, đảm bảo tiêu chuẩn thẩm mỹ khắt khe nhất."
-    },{
+    },
+    {
       "topic": "evolution_of_mecha_models",
       "keywords": ["lịch sử mô hình mecha", "thập niên 1980", "gunpla history", "bandai gundam origin", "đồ chơi lắp ráp nhật bản"],
       "content": "Lịch sử phát triển của mô hình mecha bắt nguồn từ Nhật Bản những năm 1980 cùng sự bùng nổ của dòng phim anime Mobile Suit Gundam. Bandai tiên phong định nghĩa lại ngành công nghiệp đồ chơi với công nghệ ép nhựa phun khuôn chính xác (Injection Molding) không cần keo dán, biến mô hình nhựa từ món đồ chơi trẻ em thành nghệ thuật sưu tầm cho người lớn."
@@ -215,3 +220,5 @@
       "keywords": ["lịch sử decal nước", "waterside decal origin", "giấy thấm nước", "mực in lụa mô hình"],
       "content": "Nguồn gốc lịch sử của decal nước (Waterside Decal): Ban đầu được ứng dụng trong ngành gốm sứ và mô hình xe lửa cổ điển, sau đó được tinh chỉnh lớp màng keo mỏng để thích ứng hoàn hảo với các bề mặt cong phức tạp của mecha, giúp tái hiện chính xác các ký hiệu quân sự và thông số kỹ thuật thực chiến."
     }
+  ]
+}
