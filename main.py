@@ -14,7 +14,7 @@ from groq import Groq
 
 app = FastAPI(
     title="Z Studio AI Assistant Server",
-    version="2.3.0"
+    version="2.4.0"
 )
 
 
@@ -24,18 +24,216 @@ app = FastAPI(
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 
-# Có thể đổi model trực tiếp trên Render bằng Environment Variable
-GROQ_MODEL = os.getenv(
-    "GROQ_MODEL",
-    "llama-3.1-8b-instant"
-)
+# Nếu có biến này thì ưu tiên nó,
+# nhưng code sẽ kiểm tra model có thật sự dùng được hay không.
+GROQ_MODEL_REQUESTED = os.getenv("GROQ_MODEL", "").strip()
 
-if GROQ_API_KEY:
-    groq_client = Groq(api_key=GROQ_API_KEY)
-    print("[OK] Groq API configured")
-else:
-    groq_client = None
-    print("[WARN] GROQ_API_KEY not configured")
+groq_client = None
+GROQ_MODEL = None
+
+
+# =========================================================
+# FIND AVAILABLE GROQ MODEL
+# =========================================================
+
+def find_groq_model():
+
+    global groq_client
+    global GROQ_MODEL
+
+    if not GROQ_API_KEY:
+
+        print("[WARN] GROQ_API_KEY not configured")
+
+        return
+
+
+    try:
+
+        groq_client = Groq(
+            api_key=GROQ_API_KEY
+        )
+
+        print("[OK] Groq API configured")
+
+
+        # -------------------------------------------------
+        # Lấy danh sách model mà API key hiện tại nhìn thấy
+        # -------------------------------------------------
+
+        models_response = groq_client.models.list()
+
+        available_models = []
+
+        for model in models_response.data:
+
+            model_id = getattr(
+                model,
+                "id",
+                ""
+            )
+
+            if model_id:
+
+                available_models.append(
+                    model_id
+                )
+
+
+        print(
+            f"[GROQ] Available models: "
+            f"{len(available_models)}"
+        )
+
+
+        # In danh sách ra Render Logs để dễ kiểm tra
+        for model_id in available_models:
+
+            print(
+                f"[GROQ MODEL] {model_id}"
+            )
+
+
+        # -------------------------------------------------
+        # 1. Nếu GROQ_MODEL được cấu hình và tồn tại
+        # -------------------------------------------------
+
+        if GROQ_MODEL_REQUESTED:
+
+            if GROQ_MODEL_REQUESTED in available_models:
+
+                GROQ_MODEL = GROQ_MODEL_REQUESTED
+
+                print(
+                    f"[GROQ] Using configured model: "
+                    f"{GROQ_MODEL}"
+                )
+
+                return
+
+            else:
+
+                print(
+                    f"[GROQ] Configured model unavailable: "
+                    f"{GROQ_MODEL_REQUESTED}"
+                )
+
+                print(
+                    "[GROQ] Automatically selecting "
+                    "an available model..."
+                )
+
+
+        # -------------------------------------------------
+        # 2. Model ưu tiên
+        # -------------------------------------------------
+
+        preferred_models = [
+
+            # Các model mạnh / phổ biến
+            "llama-4-maverick-17b-128e-instruct",
+            "llama-4-scout-17b-16e-instruct",
+
+            # Các model reasoning / general
+            "openai/gpt-oss-120b",
+            "openai/gpt-oss-20b",
+
+            # Qwen
+            "qwen/qwen3-32b",
+            "qwen3-32b",
+
+            # Model cũ nếu tài khoản vẫn còn hỗ trợ
+            "llama-3.3-70b-versatile",
+            "llama-3.1-8b-instant",
+
+        ]
+
+
+        for preferred in preferred_models:
+
+            if preferred in available_models:
+
+                GROQ_MODEL = preferred
+
+                print(
+                    f"[GROQ] Auto-selected model: "
+                    f"{GROQ_MODEL}"
+                )
+
+                return
+
+
+        # -------------------------------------------------
+        # 3. Nếu không tìm thấy model ưu tiên
+        #    → tìm model dạng text/instruct
+        # -------------------------------------------------
+
+        excluded_words = [
+
+            "whisper",
+            "guard",
+            "safety",
+            "tts",
+            "speech",
+            "audio",
+
+        ]
+
+
+        for model_id in available_models:
+
+            model_lower = model_id.lower()
+
+
+            if any(
+                word in model_lower
+                for word in excluded_words
+            ):
+
+                continue
+
+
+            if (
+                "instruct" in model_lower
+                or "llama" in model_lower
+                or "qwen" in model_lower
+                or "gpt" in model_lower
+            ):
+
+                GROQ_MODEL = model_id
+
+                print(
+                    f"[GROQ] Fallback selected model: "
+                    f"{GROQ_MODEL}"
+                )
+
+                return
+
+
+        # -------------------------------------------------
+        # Không tìm được
+        # -------------------------------------------------
+
+        print(
+            "[GROQ ERROR] "
+            "No suitable text model found."
+        )
+
+        GROQ_MODEL = None
+
+
+    except Exception as e:
+
+        print(
+            f"[GROQ INIT ERROR] {e}"
+        )
+
+        groq_client = None
+        GROQ_MODEL = None
+
+
+# Khởi tạo Groq
+find_groq_model()
 
 
 # =========================================================
@@ -47,26 +245,45 @@ DATA_DIR = "."
 
 def load_json_file(filename):
 
-    path = os.path.join(DATA_DIR, filename)
+    path = os.path.join(
+        DATA_DIR,
+        filename
+    )
+
 
     if os.path.exists(path):
 
         try:
 
-            with open(path, "r", encoding="utf-8") as f:
+            with open(
+                path,
+                "r",
+                encoding="utf-8"
+            ) as f:
+
                 data = json.load(f)
 
-            print(f"[OK] Loaded: {filename}")
+
+            print(
+                f"[OK] Loaded: {filename}"
+            )
 
             return data
 
+
         except Exception as e:
 
-            print(f"[ERROR] Cannot read {filename}: {e}")
+            print(
+                f"[ERROR] Cannot read "
+                f"{filename}: {e}"
+            )
 
             return {}
 
-    print(f"[WARN] File not found: {filename}")
+
+    print(
+        f"[WARN] File not found: {filename}"
+    )
 
     return {}
 
@@ -75,15 +292,37 @@ def load_json_file(filename):
 # LOAD ALL KNOWLEDGE
 # =========================================================
 
-chat_data = load_json_file("chat_contexts.json")
+chat_data = load_json_file(
+    "chat_contexts.json"
+)
 
-mecha_data = load_json_file("knowledge_mecha.json")
-iot_data = load_json_file("knowledge_iot.json")
-crochet_data = load_json_file("knowledge_crochet.json")
-gemstones_data = load_json_file("knowledge_gemstones.json")
-pets_data = load_json_file("knowledge_pets.json")
-plants_data = load_json_file("knowledge_plants.json")
-vehicles_data = load_json_file("knowledge_vehicles.json")
+mecha_data = load_json_file(
+    "knowledge_mecha.json"
+)
+
+iot_data = load_json_file(
+    "knowledge_iot.json"
+)
+
+crochet_data = load_json_file(
+    "knowledge_crochet.json"
+)
+
+gemstones_data = load_json_file(
+    "knowledge_gemstones.json"
+)
+
+pets_data = load_json_file(
+    "knowledge_pets.json"
+)
+
+plants_data = load_json_file(
+    "knowledge_plants.json"
+)
+
+vehicles_data = load_json_file(
+    "knowledge_vehicles.json"
+)
 
 
 # =========================================================
@@ -122,37 +361,74 @@ def search_local_knowledge(query: str):
     # 1. CHAT / CONVERSATION CONTEXT
     # =====================================================
 
-    if isinstance(chat_data, dict):
+    if isinstance(
+        chat_data,
+        dict
+    ):
 
-        intents = chat_data.get("intents", [])
+        intents = chat_data.get(
+            "intents",
+            []
+        )
 
-        if isinstance(intents, list):
+
+        if isinstance(
+            intents,
+            list
+        ):
 
             for intent in intents:
 
-                if not isinstance(intent, dict):
+                if not isinstance(
+                    intent,
+                    dict
+                ):
+
                     continue
 
-                keywords = intent.get("keywords", [])
 
-                if not isinstance(keywords, list):
+                keywords = intent.get(
+                    "keywords",
+                    []
+                )
+
+
+                if not isinstance(
+                    keywords,
+                    list
+                ):
+
                     continue
+
 
                 for keyword in keywords:
 
-                    if not isinstance(keyword, str):
+                    if not isinstance(
+                        keyword,
+                        str
+                    ):
+
                         continue
 
-                    if keyword.lower() in query_lower:
+
+                    if (
+                        keyword.lower()
+                        in query_lower
+                    ):
 
                         responses = intent.get(
                             "responses",
-                            ["Hả? Nói lại nghe xem nào."]
+                            [
+                                "Hả? Nói lại nghe xem nào."
+                            ]
                         )
+
 
                         if responses:
 
-                            return random.choice(responses)
+                            return random.choice(
+                                responses
+                            )
 
 
     # =====================================================
@@ -165,36 +441,50 @@ def search_local_knowledge(query: str):
 
     for category_name, data in KNOWLEDGE_BASES.items():
 
-        if not isinstance(data, dict):
+        if not isinstance(
+            data,
+            dict
+        ):
+
             continue
 
 
-        # -------------------------------------------------
-        # Tìm tất cả list trong JSON
-        # -------------------------------------------------
-
         knowledge_list = []
+
 
         for key, value in data.items():
 
-            if isinstance(value, list):
+            if isinstance(
+                value,
+                list
+            ):
 
-                knowledge_list.extend(value)
+                knowledge_list.extend(
+                    value
+                )
 
-
-        # -------------------------------------------------
-        # Search từng item
-        # -------------------------------------------------
 
         for item in knowledge_list:
 
-            if not isinstance(item, dict):
+            if not isinstance(
+                item,
+                dict
+            ):
+
                 continue
 
 
-            keywords = item.get("keywords", [])
+            keywords = item.get(
+                "keywords",
+                []
+            )
 
-            if not isinstance(keywords, list):
+
+            if not isinstance(
+                keywords,
+                list
+            ):
+
                 continue
 
 
@@ -203,17 +493,28 @@ def search_local_knowledge(query: str):
 
             for keyword in keywords:
 
-                if not isinstance(keyword, str):
+                if not isinstance(
+                    keyword,
+                    str
+                ):
+
                     continue
 
-                if keyword.lower() in query_lower:
+
+                if (
+                    keyword.lower()
+                    in query_lower
+                ):
 
                     score += 1
 
 
             if score > best_score:
 
-                content = item.get("content")
+                content = item.get(
+                    "content"
+                )
+
 
                 if content:
 
@@ -255,12 +556,17 @@ async def ask_z(req: QueryRequest):
     # LOCAL KNOWLEDGE FIRST
     # =====================================================
 
-    local_answer = search_local_knowledge(user_query)
+    local_answer = search_local_knowledge(
+        user_query
+    )
 
 
     if local_answer:
 
-        print("[LOCAL] " + user_query)
+        print(
+            "[LOCAL] "
+            + user_query
+        )
 
         return {
 
@@ -275,7 +581,7 @@ async def ask_z(req: QueryRequest):
     # GROQ FALLBACK
     # =====================================================
 
-    if groq_client:
+    if groq_client and GROQ_MODEL:
 
         try:
 
@@ -348,14 +654,18 @@ Quan trọng:
 
                 "source": "server_error",
 
-                "response": "Groq không trả về dữ liệu."
+                "response": (
+                    "Groq không trả về dữ liệu."
+                )
 
             }
 
 
         except Exception as e:
 
-            print(f"[GROQ ERROR] {e}")
+            print(
+                f"[GROQ ERROR] {e}"
+            )
 
             return {
 
@@ -375,11 +685,10 @@ Quan trọng:
 
     return {
 
-        "source": "server_local",
+        "source": "server_error",
 
         "response": (
-            "Tao không tìm thấy dữ liệu trong bộ nhớ local "
-            "và Groq API Key cũng chưa được cấu hình."
+            "Không có Groq model khả dụng."
         )
 
     }
@@ -394,11 +703,19 @@ async def root():
 
     return {
 
-        "status": "Z Studio Server is online and ready!",
+        "status": (
+            "Z Studio Server is online and ready!"
+        ),
 
-        "version": "2.3.0",
+        "version": "2.4.0",
 
-        "ai": "groq" if groq_client else "none"
+        "ai": (
+            "groq"
+            if groq_client and GROQ_MODEL
+            else "none"
+        ),
+
+        "model": GROQ_MODEL or "none"
 
     }
 
