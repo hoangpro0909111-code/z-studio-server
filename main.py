@@ -1,116 +1,314 @@
 import os
 import json
 import random
+
 import uvicorn
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 import google.generativeai as genai
 
-app = FastAPI(title="Z Studio AI Assistant Server", version="2.1.0")
 
-# 1. Cấu hình Gemini API (Lấy từ biến môi trường của Render)
+# =========================================================
+# Z STUDIO AI SERVER
+# =========================================================
+
+app = FastAPI(
+    title="Z Studio AI Assistant Server",
+    version="2.2.0"
+)
+
+
+# =========================================================
+# GEMINI
+# =========================================================
+
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
+
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    gemini_model = genai.GenerativeModel('gemini-2.5-flash')
+    gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 else:
     gemini_model = None
 
-# 2. Tự động nạp toàn bộ các file JSON dữ liệu trên server
+
+# =========================================================
+# LOAD JSON
+# =========================================================
+
 DATA_DIR = "."
+
+
 def load_json_file(filename):
     path = os.path.join(DATA_DIR, filename)
+
     if os.path.exists(path):
         try:
             with open(path, "r", encoding="utf-8") as f:
-                return json.load(f)
+                data = json.load(f)
+
+            print(f"[OK] Loaded: {filename}")
+            return data
+
         except Exception as e:
-            print(f"Lỗi đọc file {filename}: {e}")
+            print(f"[ERROR] Cannot read {filename}: {e}")
+            return {}
+
+    print(f"[WARN] File not found: {filename}")
     return {}
 
-# Load các module dữ liệu rời rạc
+
+# =========================================================
+# LOAD ALL KNOWLEDGE
+# =========================================================
+
 chat_data = load_json_file("chat_contexts.json")
+
 mecha_data = load_json_file("knowledge_mecha.json")
 iot_data = load_json_file("knowledge_iot.json")
-custom_data = load_json_file("knowledge_custom.json")
-vehicles_pc_data = load_json_file("knowledge_vehicles_pc.json")
-misc_data = load_json_file("knowledge_misc.json")
+crochet_data = load_json_file("knowledge_crochet.json")
+gemstones_data = load_json_file("knowledge_gemstones.json")
+pets_data = load_json_file("knowledge_pets.json")
+plants_data = load_json_file("knowledge_plants.json")
+vehicles_data = load_json_file("knowledge_vehicles.json")
 
-# 3. Thuật toán tra cứu nội bộ (Rule-based keyword matching)
-def search_local_knowledge(query: str) -> str:
+
+# =========================================================
+# KNOWLEDGE BASE
+# =========================================================
+
+KNOWLEDGE_BASES = {
+    "mecha": mecha_data,
+    "iot": iot_data,
+    "crochet": crochet_data,
+    "gemstones": gemstones_data,
+    "pets": pets_data,
+    "plants": plants_data,
+    "vehicles": vehicles_data,
+}
+
+
+# =========================================================
+# LOCAL SEARCH
+# =========================================================
+
+def search_local_knowledge(query: str):
     query_lower = query.lower()
-    
-    # Kiểm tra kho ngữ cảnh giao tiếp
-    if "intents" in chat_data:
-        for intent in chat_data["intents"]:
-            for kw in intent.get("keywords", []):
-                if kw in query_lower:
-                    responses = intent.get("responses", ["Hả? Nói lại nghe xem nào."])
-                    return random.choice(responses)
 
-    # Gom toàn bộ kho kiến thức chuyên sâu để quét
-    all_knowledge_lists = [
-        mecha_data.get("mecha_knowledge", []),
-        iot_data.get("iot_knowledge", []),
-        custom_data.get("custom_knowledge", []),
-        vehicles_pc_data.get("vehicles_pc_knowledge", []),
-        misc_data.get("misc_knowledge", [])
-    ]
+    # -----------------------------------------------------
+    # 1. CHAT / CONVERSATION CONTEXT
+    # -----------------------------------------------------
 
-    for k_list in all_knowledge_lists:
-        for item in k_list:
-            for kw in item.get("keywords", []):
-                if kw in query_lower:
-                    return item.get("content")
+    if isinstance(chat_data, dict):
 
-    return None
+        intents = chat_data.get("intents", [])
 
-# 4. Định nghĩa cấu trúc request từ ESP32-S3
+        if isinstance(intents, list):
+
+            for intent in intents:
+
+                keywords = intent.get("keywords", [])
+
+                for keyword in keywords:
+
+                    if keyword.lower() in query_lower:
+
+                        responses = intent.get(
+                            "responses",
+                            ["Hả? Nói lại nghe xem nào."]
+                        )
+
+                        if responses:
+                            return random.choice(responses)
+
+
+    # -----------------------------------------------------
+    # 2. KNOWLEDGE DATABASE
+    # -----------------------------------------------------
+
+    best_match = None
+    best_score = 0
+
+    for category_name, data in KNOWLEDGE_BASES.items():
+
+        if not isinstance(data, dict):
+            continue
+
+        # -------------------------------------------------
+        # Tìm list dữ liệu trong JSON
+        # -------------------------------------------------
+
+        knowledge_list = []
+
+        for key, value in data.items():
+
+            if isinstance(value, list):
+                knowledge_list.extend(value)
+
+        # -------------------------------------------------
+        # Search từng item
+        # -------------------------------------------------
+
+        for item in knowledge_list:
+
+            if not isinstance(item, dict):
+                continue
+
+            keywords = item.get("keywords", [])
+
+            if not isinstance(keywords, list):
+                continue
+
+            score = 0
+
+            for keyword in keywords:
+
+                if not isinstance(keyword, str):
+                    continue
+
+                if keyword.lower() in query_lower:
+                    score += 1
+
+            if score > best_score:
+
+                content = item.get("content")
+
+                if content:
+                    best_score = score
+                    best_match = content
+
+    return best_match
+
+
+# =========================================================
+# REQUEST MODEL
+# =========================================================
+
 class QueryRequest(BaseModel):
     prompt: str
 
+
+# =========================================================
+# ASK Z
+# =========================================================
+
 @app.post("/ask")
 async def ask_z(req: QueryRequest):
-    user_query = req.prompt.strip()
-    if not user_query:
-        raise HTTPException(status_code=400, detail="Prompt cannot be empty")
 
-    # Bước 1: Quét kho tĩnh trên server
+    user_query = req.prompt.strip()
+
+    if not user_query:
+        raise HTTPException(
+            status_code=400,
+            detail="Prompt cannot be empty"
+        )
+
+
+    # =====================================================
+    # LOCAL KNOWLEDGE FIRST
+    # =====================================================
+
     local_answer = search_local_knowledge(user_query)
+
     if local_answer:
+
+        print("[LOCAL] " + user_query)
+
         return {
             "source": "server_local",
             "response": local_answer
         }
 
-    # Bước 2: Fallback sang Gemini
+
+    # =====================================================
+    # GEMINI FALLBACK
+    # =====================================================
+
     if gemini_model:
+
         try:
-            system_instruction = (
-                "Bạn là 'Z' - một trợ lý AI cá nhân cộc lốc, hay cà khịa chủ nhân "
-                "nhưng cực kỳ trung thành và am hiểu sâu sắc về Gundam, Metal Kit, IoT, xe cộ và kỹ thuật. "
-                "Hãy trả lời ngắn gọn, sắc sảo."
+
+            system_instruction = """
+Bạn là Z - trợ lý AI cá nhân của chủ nhân.
+
+Phong cách:
+- Nói chuyện tự nhiên bằng tiếng Việt.
+- Có thể hơi cộc, cà khịa nhẹ và thân mật.
+- Trung thành với chủ nhân.
+- Trả lời ngắn gọn nhưng hữu ích.
+- Không nói dài dòng nếu không cần thiết.
+- Nếu câu hỏi cần hướng dẫn kỹ thuật thì giải thích rõ từng bước.
+- Am hiểu Gundam, Metal Kit, mô hình, 3D printing,
+  airbrush, IoT, ESP32, điện tử, xe cộ và kỹ thuật.
+"""
+
+            full_prompt = (
+                system_instruction
+                + "\n\n"
+                + "Chủ nhân hỏi:\n"
+                + user_query
             )
-            full_prompt = f"{system_instruction}\n\nChủ nhân hỏi: {user_query}"
-            resp = gemini_model.generate_content(full_prompt)
-            return {
-                "source": "gemini_fallback",
-                "response": resp.text.strip()
-            }
-        except Exception as e:
+
+            response = gemini_model.generate_content(full_prompt)
+
+            if response and response.text:
+
+                print("[GEMINI] " + user_query)
+
+                return {
+                    "source": "gemini_fallback",
+                    "response": response.text.strip()
+                }
+
             return {
                 "source": "server_error",
-                "response": f"Hệ thống mây đang nghẽn mạng rồi: {str(e)}"
+                "response": "Gemini không trả về dữ liệu."
             }
+
+        except Exception as e:
+
+            print(f"[GEMINI ERROR] {e}")
+
+            return {
+                "source": "server_error",
+                "response": f"Hệ thống mây đang nghẽn rồi: {str(e)}"
+            }
+
+
+    # =====================================================
+    # NO GEMINI
+    # =====================================================
 
     return {
         "source": "server_local",
-        "response": "Không tìm thấy dữ liệu trên server và chưa cấu hình Gemini API Key!"
+        "response": (
+            "Tao không tìm thấy dữ liệu trong bộ nhớ local "
+            "và Gemini API Key cũng chưa được cấu hình."
+        )
     }
+
+
+# =========================================================
+# ROOT
+# =========================================================
 
 @app.get("/")
 async def root():
-    return {"status": "Z Studio Server is online and ready!"}
+
+    return {
+        "status": "Z Studio Server is online and ready!",
+        "version": "2.2.0"
+    }
+
+
+# =========================================================
+# RUN SERVER
+# =========================================================
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
+    uvicorn.run(
+        "main:app",
+        host="0.0.0.0",
+        port=8000,
+        reload=True
+    )
