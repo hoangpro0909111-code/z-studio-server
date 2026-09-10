@@ -4,7 +4,7 @@ import random
 import uvicorn
 
 from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import StreamingResponse
+from fastapi.responses import Response
 from pydantic import BaseModel
 from groq import Groq
 import edge_tts
@@ -12,7 +12,7 @@ import edge_tts
 
 # =========================================================
 # Z STUDIO AI SERVER
-# VERSION 2.6.0
+# VERSION 2.6.1
 #
 # /ask  -> Z AI
 # /stt  -> Groq Whisper
@@ -21,7 +21,7 @@ import edge_tts
 
 app = FastAPI(
     title="Z Studio AI Assistant Server",
-    version="2.6.0"
+    version="2.6.1"
 )
 
 
@@ -817,7 +817,6 @@ async def text_to_speech(
             detail="Text cannot be empty"
         )
 
-    # Giới hạn để tránh câu quá dài
     if len(text) > 2000:
 
         raise HTTPException(
@@ -829,7 +828,7 @@ async def text_to_speech(
         f"[TTS:{TTS_VOICE}] {text}"
     )
 
-    async def audio_generator():
+    try:
 
         communicate = edge_tts.Communicate(
             text=text,
@@ -839,20 +838,65 @@ async def text_to_speech(
             pitch="+0Hz"
         )
 
+        # -------------------------------------------------
+        # Tạo toàn bộ MP3 trước
+        # -------------------------------------------------
+
+        audio_data = bytearray()
+
         async for chunk in communicate.stream():
 
             if chunk["type"] == "audio":
 
-                yield chunk["data"]
+                audio_data.extend(
+                    chunk["data"]
+                )
 
-    return StreamingResponse(
-        audio_generator(),
-        media_type="audio/mpeg",
-        headers={
-            "Content-Disposition":
-                'inline; filename="z_voice.mp3"'
-        }
-    )
+        if not audio_data:
+
+            raise HTTPException(
+                status_code=500,
+                detail="TTS không tạo được audio"
+            )
+
+        print(
+            f"[TTS] Generated MP3: "
+            f"{len(audio_data)} bytes"
+        )
+
+        # -------------------------------------------------
+        # Trả MP3 hoàn chỉnh
+        # -------------------------------------------------
+
+        return Response(
+
+            content=bytes(audio_data),
+
+            media_type="audio/mpeg",
+
+            headers={
+
+                "Content-Disposition":
+                    'inline; filename="z_voice.mp3"'
+
+            }
+
+        )
+
+    except HTTPException:
+
+        raise
+
+    except Exception as e:
+
+        print(
+            f"[TTS ERROR] {e}"
+        )
+
+        raise HTTPException(
+            status_code=500,
+            detail=f"TTS error: {e}"
+        )
 
 
 # =========================================================
@@ -868,7 +912,7 @@ async def root():
             "Z Studio Server is online and ready!",
 
         "version":
-            "2.6.0",
+            "2.6.1",
 
         "ai":
             (
